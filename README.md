@@ -2,11 +2,16 @@
 
 DeciCollab is a short and impactful name that emphasizes both the decision-making process and the collaborative nature of the project. Here's how you could further position DeciCollab:
 
-* __Transparent System Architecture documentation__: System architecture is in a constant state of evolution and can only be effectively shaped through a sustainable and adaptive change process. Quality requirements and priorities are subject to significant fluctuations over time, necessitating flexible and forward-thinking strategies. One of the most impactful shifts is adopting a transparency-focused approach by thoroughly documenting your architecture and the technical debt associated with your decisions.
-* __Core Focus__: DeciCollab is a repository designed to streamline and document the ideas how architecture decisions made within a collaborative environment. Whether it's architectural choices, technical debt, or strategic product decisions, this repository serves as the central hub for all decision-related discussions.
-* __Collaborative Element__: The name “Collab” points directly to the importance of inclusivity and communication across multiple teams. It implies an open, transparent process where all stakeholders—developers, product owners, architects, and other team members—have a voice in the architetecture decision-making.
-* __Streamlining Decision Tracking__: By using DeciCollab, teams can document decisions through structured templates (such as Architecture Decision Records (ADRs) and Technichal Dept Records (TDRs)) that include the rationale behind decisions, trade-offs, and impacts. This helps everyone keep track of past decisions, especially for complex projects or systems.
-* __Optimized for Iteration__: The ADRs and TDRs encourages frequent revisiting and updating of decisions as the project evolves, so it fits well in environments where constant adaptation and improvements are necessary.
+* __Transparent System Architecture documentation__: 
+  * System architecture is in a constant state of evolution and can only be effectively shaped through a sustainable and adaptive change process. Quality requirements and priorities are subject to significant fluctuations over time, necessitating flexible and forward-thinking strategies. One of the most impactful shifts is adopting a transparency-focused approach by thoroughly documenting your architecture and the technical debt associated with your decisions.
+* __Core Focus__: 
+  * DeciCollab is a repository designed to streamline and document the ideas how architecture decisions made within a collaborative environment. Whether it's architectural choices, technical debt, or strategic product decisions, this repository serves as the central hub for all decision-related discussions.
+* __Collaborative Element__:
+  * The name “Collab” points directly to the importance of inclusivity and communication across multiple teams. It implies an open, transparent process where all stakeholders—developers, product owners, architects, and other team members—have a voice in the architetecture decision-making.
+* __Streamlining Decision Tracking__:
+  * By using DeciCollab, teams can document decisions through structured templates (such as Architecture Decision Records (ADRs) and Technichal Dept Records (TDRs)) that include the rationale behind decisions, trade-offs, and impacts. This helps everyone keep track of past decisions, especially for complex projects or systems.
+* __Optimized for Iteration__:
+  * The ADRs and TDRs encourages frequent revisiting and updating of decisions as the project evolves, so it fits well in environments where constant adaptation and improvements are necessary.
 
 Possible Features for the Repository:
 
@@ -15,11 +20,16 @@ Possible Features for the Repository:
 
 ## Document Architecture Decisions Pattern
 
-* __Documentation of Decisions__: Use Architecture Decision Records (ADR) and Technical Debt Records (TDR) to document decisions and trade-offs made across teams.
-* __Collaborative Input__: Encourage cross-team contributions, with discussions around decisions to ensure diverse perspectives are considered.
-* __Transparent Process__: Maintain clear, open documentation that allows anyone in the organization to review, understand, and participate in ongoing decisions.
-* __Iteration and Updates__: Continuously refine decisions as the project evolves, using feedback loops and keeping all documentation up-to-date.
-* __Decentralized Ownership__: Support shared ownership of decisions, ensuring teams contribute to and benefit from each other’s insights and expertise.
+* __Documentation of Decisions__:
+  * Use Architecture Decision Records (ADR) and Technical Debt Records (TDR) to document decisions and trade-offs made across teams.
+* __Collaborative Input__:
+  * Encourage cross-team contributions, with discussions around decisions to ensure diverse perspectives are considered.
+* __Transparent Process__:
+  * Maintain clear, open documentation that allows anyone in the organization to review, understand, and participate in ongoing decisions.
+* __Iteration and Updates__:
+  * Continuously refine decisions as the project evolves, using feedback loops and keeping all documentation up-to-date.
+* __Decentralized Ownership__:
+  * Support shared ownership of decisions, ensuring teams contribute to and benefit from each other’s insights and expertise.
 
 The first formulation of pattern:
 
