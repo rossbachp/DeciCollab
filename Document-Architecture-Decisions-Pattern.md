@@ -35,6 +35,8 @@ In one such scenario, the system's scalability is identified as a critical issue
 
 To address these possibilities, the teams convene a series of writers' workshops. Here, architects, maintainers, and engineers document the technical debt in their respective areas and outline how each solution impacts the project. These workshops were designed to help committers produce well-documented decisions using structured templates, such as Architecture Decision Records (ADRs) and Technical Debt Records (TDRs). By utilizing these templates, the workshops supported a shared understanding of existing trade-offs and supported open, transparent discussions. The ADRs captured the rationale behind architectural choices, while the TDRs helped document the technical debt in various parts of the system. This approach not only ensured a thorough exploration of options but also created a traceable record of decisions, making it easier for all stakeholders to follow the reasoning behind each direction taken.
 
+* [Writes Workshop Pattern](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
+
 ### Building Prototypes Before Committing
 
 Recognizing the importance of implementation experience, the teams decide to build experimental versions of the proposed solutions. This isn't just theoretical planning—each solution is implemented in small, controlled test environments. The teams are empowered to explore how these options integrate into the larger system. Some engineers even build experimental APIs and measure their usability and performance.
@@ -113,7 +115,7 @@ Important elements of the solution are:
 
 ### Examples/Templates
 
-* [DOCUMENTING ARCHITECTURE DECISIONS - Michael Nygard  ](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+* [Documenting architecture decisions - Michael Nygard](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [ADR-Tools - markdown](https://github.com/adr/adr-tools)
 * [ADR-Tools Nat Pryce - markdown](https://github.com/npryce/adr-tools)
 * [ADR-Tools - asciidoc](https://github.com/unexist/adr-tools)
