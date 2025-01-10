@@ -107,7 +107,6 @@ How you decide architecture decisions?:
 * [Why Every Development Team Needs Architecture Decision Records](https://medium.com/@tyschenk20/why-every-development-team-needs-architecture-decision-records-ec78cde47e8d)
 * [Why you should be using architecture decision records to document your project](https://www.redhat.com/en/blog/architecture-decision-records)
 * [Writes Workshop](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
-Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
 * [When Should I Write an Architecture Decision Record](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 https://opensource.com/article/20/3/documentation?extIdCarryOver=true&sc_cid=701f2000001Css0AAC
