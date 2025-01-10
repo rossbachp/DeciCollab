@@ -23,7 +23,7 @@ Possible Features for the Repository:
 
 The first formulation of pattern:
 
-* [Request of comment - Document Architecture Decisions Pattern](./Document-Architecture-Decisions-Pattern.md)
+* [Request for comments - Document Architecture Decisions Pattern](./Document-Architecture-Decisions-Pattern.md)
 
 Reference to Innersource Patterns:
 
@@ -32,7 +32,7 @@ Reference to Innersource Patterns:
 
 ## Hints and other ideas
 
-### Request of Commons
+### Request for Comments
 
 The Request for Comments (RFC) method is a collaborative approach to gather feedback and insights on a specific topic, proposal, or idea. It involves sharing a statement or document with stakeholders and inviting their input to ensure clarity, address concerns, and incorporate diverse perspectives.
 
