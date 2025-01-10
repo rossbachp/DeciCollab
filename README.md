@@ -30,7 +30,35 @@ Reference to Innersource Patterns:
 * [Innersource Patterns](https://patterns.innersourcecommons.org)
 * [Pattern Template](https://patterns.innersourcecommons.org/appendix/pattern-template)
 
-## Hints and other ideas
+## Collaboration Ideas
+
+### Architecture Decision Records
+
+[Architecture Decision Records (ADRs)](https://adr.github.io) are concise, structured documents used to capture key decisions made during software architecture development. Each ADR outlines the context, alternatives, rationale, and consequences of a specific decision.
+
+An ADR includes:
+
+* Title: A clear description of the decision.
+* Context: Background information and relevant constraints.
+* Decision: The choice made.
+* Alternatives: Options considered, with reasons for rejection.
+* Consequences: Impact of the decision, both positive and negative.
+
+ADRs ensure traceability, transparency, and alignment among stakeholders, helping teams understand and revisit past decisions as the system evolves.
+
+* [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+
+### Arc 42
+
+[arc42](https://arc42.org) is a proven and practical framework for documenting and communicating software and system architectures. It provides a template that guides architects through systematically capturing essential aspects of an architecture, such as goals, requirements, constraints, solution building blocks, and runtime behavior.
+
+* [arc42 quality model](https://quality.arc42.org/articles/arc42-quality-model)
+
+### Open Decision Framework
+
+The [Open Decision Framework](https://github.com/open-organization/open-decision-framework) is a collaborative methodology used to make transparent, inclusive, and well-informed decisions. It emphasizes open communication, diverse stakeholder engagement, and iterative feedback throughout the decision-making process.
+
+* [Open Decision Framework](https://opensource.com/open-organization/resources/open-decision-framework)
 
 ### Request for Comments
 
@@ -48,26 +76,16 @@ How you decide architecture decisions?:
 
 * [Published by Josef Blake](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 
-### Open Decision Framework
-
-The [Open Decision Framework](https://github.com/open-organization/open-decision-framework) is a collaborative methodology used to make transparent, inclusive, and well-informed decisions. It emphasizes open communication, diverse stakeholder engagement, and iterative feedback throughout the decision-making process.
-
-* [Open Decision Framework](https://opensource.com/open-organization/resources/open-decision-framework)
-
 ### Technical Dept Records
 
-Technical Debt Records (TDRs) are a structured approach to documenting and managing technical debt within software projects. They provide a standardized format to record instances of technical debt, including details such as the nature of the debt, its implications, and strategies for resolution. Implementing TDRs enhances transparency, facilitates better decision-making, and aids in prioritizing technical debt remediation efforts.
+[Technical Debt Records (TDRs)](https://github.com/ms1963/TechnicalDebtRecords) are a structured approach to documenting and managing technical debt within software projects. They provide a standardized format to record instances of technical debt, including details such as the nature of the debt, its implications, and strategies for resolution. Implementing TDRs enhances transparency, facilitates better decision-making, and aids in prioritizing technical debt remediation efforts.
 
 * [Technical Debt Records Idea](https://www.heise.de/blog/Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
 
-### Arc 42
-
-[arc42](https://arc42.org) is a proven and practical framework for documenting and communicating software and system architectures. It provides a template that guides architects through systematically capturing essential aspects of an architecture, such as goals, requirements, constraints, solution building blocks, and runtime behavior.
-
-* [arc42 quality model](https://quality.arc42.org/articles/arc42-quality-model)
 
 ## More References
 
+* [Architectural Decision - AD](https://en.wikipedia.org/wiki/Architectural_decision)
 * [Architecting Success: A Comprehensive Guide to Robust Architecture Decision Records](https://medium.com/@patrickkoss/architecting-success-a-comprehensive-guide-to-robust-architecture-decision-records-4c18e6888ba1)
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [How to write effective documentation for your open source project](https://opensource.com/article/20/3/documentation?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)

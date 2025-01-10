@@ -4,7 +4,7 @@ Document Architecture System Decisions and the Technical Depts
 
 ## Patlet
 
-InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory format for all system components, tools and workflows. Michael Nygard announced 2011 the idea to document architecture decision with a simple markdown template and shared it with a simple git project. Today this adr tool is well proven and a many of teams around the globe use __architetecure desicion records (ADRs)__ to document there design desicions.
+InnerSource projects that want to achieve high participation rates and make the best possible decisions for everybody involved need to find ways to create participatory format for all system components, tools and workflows. Michael Nygard announced 2011 the idea to document architecture decision with a simple markdown template and shared it with a simple git project. Today this adr tool is well proven and a many of teams around the globe use __Architetecure Desicion Records (ADRs)__ to document there design desicions.
 
 Another important aspect of defining architectural decisions is documenting technical debt. In Technical Debt Records, Dr. Michael Stal explores the systematic tracking and management of technical debt in software development using __Technical Debt Records (TDRs)__.__ Similar to how Architecture Design Records (ADRs) capture architectural decisions, TDRs document trade-offs in code quality made to accelerate delivery. The TDRs provides a detailed template for documenting technical debt, and Christoph Kappel  introduces a record tool to streamline the process of ADRs and TDRs.
 
@@ -159,10 +159,13 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 - Peter Rossbach
 - Christoph Kappel
 
-## Aliases
+## References
 
+* [Architectural Decision](https://en.wikipedia.org/wiki/Architectural_decision)
+* [Architectural Decision Records](https://adr.github.io)
 * [Michael Nygards ADRs Idea](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [Learnings from using ADR in a real project](https://blog.unexist.dev/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
+* [Technical Debt Records](https://github.com/ms1963/TechnicalDebtRecords)
 * [Technical Debt Records Idea](https://www.heise.de/blog/Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
 * [Requests for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
