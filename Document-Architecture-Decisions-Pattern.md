@@ -1,3 +1,5 @@
+# Innersource Pattern: Document Architecture System Decisions and the Technical Depts
+
 ## Title
 
 Document Architecture System Decisions and the Technical Depts
@@ -10,9 +12,17 @@ Another important aspect of defining architectural decisions is documenting tech
 
 ## Problem
 
-In an InnerSource project, where the entire organization must remain resilient to the pressures of introducing new features and keeping up with rapid technological advancements, a substantial number of architectural decisions and responses to technical debt are required. This raises critical questions: What are the consequences of a change? On what basis is the decision made between possible options?
+In an InnerSource project, where the entire organization must remain resilient to the pressures of introducing new features and keeping up with rapid technological advancements, a substantial number of architectural decisions and responses to technical debt are required. This raises critical questions:
 
-To support an open environment for contributions and make changes easier to implement, contributors need clarity. But how can a contributor understand the rationale behind current decisions? How can we effectively discuss the risks of a radical refactor or redesign? Clear documentation and collaborative discussions are key to addressing these challenges and ensuring the project's adaptability and sustainability.
+* What are the consequences of a change? 
+* On what basis is the decision made between possible options?
+
+To support an open environment for contributions and make changes easier to implement, contributors need clarity. 
+
+* But how can a contributor understand the rationale behind current decisions?
+* How can we effectively discuss the risks of a radical refactor or redesign?
+
+Clear documentation and collaborative discussions are key to addressing these challenges and ensuring the project's adaptability and sustainability.
 
 Projects may come with varying requirements, such as the desire to introduce features that conflict with one another or result in excessive complexity, causing architectural inefficiencies.
 
@@ -81,7 +91,13 @@ Like any process, this requires ongoing refinement to maintain its effectiveness
   * Given the diverse stakeholders, decisions must be made asynchronously, avoiding the need for frequent synchronous meetings and instead encouraging discussions via writers' workshops and ongoing documentation.
 * __Desire to document decisions__:
   * It’s essential to record decisions and technical deps in writing to create a clear, traceable record, ensuring that all stakeholders can refer back to the rationale behind every architectural choice made.
-
+* __Define a revision process__:
+  * Update the records (ADR and TDR) to document, assess, and refine key architectural decisions and technical deps, ensuring alignment with evolving requirements and technologies.
+  * Regularly review decisions to confirm their practical application; if not effectively implemented, reevaluate and adjust accordingly.
+* __Define Governance__:
+  * Facilitate the process by providing clear moderation and oversight.
+  * Establish a mentoring framework to guide and support stakeholders throughout the process.
+  
 ## Forces
 
 * Often, the involved parties want to make decisions promptly, balancing speed with quality.
@@ -91,7 +107,7 @@ Like any process, this requires ongoing refinement to maintain its effectiveness
 
 ## Sketch
 
-??
+structured
 
 ## Solutions
 
@@ -156,8 +172,8 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 
 ## Author(s)
 
-- Peter Rossbach
-- Christoph Kappel
+* Peter Rossbach
+* Christoph Kappel
 
 ## References
 

@@ -80,7 +80,7 @@ A really good RFC collaborations pattern still exists:
   * Is ADR and TDRs practical tools or a relevant separate pattern?
 * [RFC Definition](https://en.wikipedia.org/wiki/Request_for_Comments)
 
-How you decide architecture decisions?:
+How you decide architecture decisions?
 
 ![](./Josef_Blake_architecture-decision-record_diagram.png)
 
@@ -92,6 +92,14 @@ How you decide architecture decisions?:
 
 * [Technical Debt Records Idea](https://www.heise.de/blog/Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
 
+### Techradar
+
+The Technology Radar is a bi-annual publication that provides insights into emerging technologies, tools, techniques, and platforms shaping the tech landscape. It categorizes items into Adopt, Trial, Assess, and Hold, offering actionable advice to guide technology adoption and innovation strategies. The Radar serves as a valuable resource for organizations and developers to evaluate trends, stay informed, and make informed decisions in a rapidly evolving ecosystem.
+
+Examples:
+
+* [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar)
+* [Zalando Tech-radar](https://opensource.zalando.com/tech-radar/)
 
 ## More References
 
