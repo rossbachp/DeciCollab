@@ -2,9 +2,11 @@
 
 ## Title
 
-A good format for the title is `ADR-nnnn` or `yyyy-mm-dd` description. The `nnnn` component represents an increasing number beginning from 1. 
+A good format for the title is `ADR-nnnn` or `yyyy-mm-dd` followed by a description of the proposed topic. The nnnn component represents a sequential number starting from 1.
 
 For example, `ADR-0002` or `2025-01-10`.
+
+Include the authors' names and email addresses.
 
 ## Status
 
@@ -27,11 +29,29 @@ The status of an Architecture Decision Record (ADR) is typically represented as 
 
 Each status helps track the evolution of architectural decisions and ensures that all stakeholders understand their current standing and applicability in the project.
 
-## Context
+## Context - (Why)
 
 The context of an Architecture Decision Record (ADR) provides the background and rationale for the decision. It describes the situation or problem that led to the decision, including relevant technical, business, or environmental factors. This may include project requirements, constraints, existing systems, team preferences, or stakeholder needs. The goal is to clearly outline the "why" behind the decision, giving future readers an understanding of the circumstances and challenges at the time the decision was made.ne particular route to be more challenging.
 
-## Decision
+### Example
+
+__Context of the Decision__: Adoption of Containerd as the Primary Kubernetes CRI
+
+As our project evolves, selecting a robust and reliable Container Runtime Interface (CRI) for Kubernetes is critical to ensure optimal performance, flexibility, and long-term sustainability. The CRI serves as the foundation for managing container lifecycle operations within our Kubernetes infrastructure, influencing both the efficiency of orchestration and the maintainability of the system.
+
+Historically, the landscape of CRIs has included various options, such as Docker and Containerd. However, Kubernetes deprecating Docker as a CRI in favor of more native solutions underscores the need to transition to a runtime fully aligned with Kubernetes’ architecture and ecosystem.
+
+Containerd stands out due to its modular architecture, robust support for container management features, and strong compatibility with Kubernetes. It has been officially adopted by the CNCF and widely embraced by leading Kubernetes platforms, such as Google Kubernetes Engine (GKE), Amazon Elastic Kubernetes Service (EKS), and Azure Kubernetes Service (AKS). Additionally, its lightweight design and performance optimizations make it a natural fit for our scalability and efficiency goals.
+
+This decision to adopt Containerd is also motivated by its:
+
+* Seamless integration with Kubernetes.
+* Proven extensibility to support diverse workloads.
+* Comprehensive documentation and community support, ensuring resources for current and future challenges.
+
+In summary, adopting Containerd as our primary Kubernetes CRI aligns with industry standards, future Kubernetes developments, and our project's goals for scalability, flexibility, and maintainability. This decision ensures our runtime infrastructure is future-proof while minimizing complexity and enhancing ecosystem alignment.
+
+## Decision -  (What/How)
 
 The Decision section of an Architecture Decision Record (ADR) clearly outlines the specific choice made to address the context or problem described. It answers the question: What was decided? This section should be concise yet detailed enough to eliminate ambiguity and serve as the definitive statement of action.
 
@@ -48,7 +68,7 @@ Key characteristics of the Decision section:
 
 ### Example:
 
-__Decision__:
+__Decision__: Adopting Containerd as the Primary Kubernetes CRI
 
 We will adopt containerd as the primary Kubernetes Container Runtime Interface (CRI) for the project. This decision is based on Containerd’s robust support for a wide range of low-level container runtimes, its modular architecture, and its proven extensibility, which align well with our project's goals for flexibility and scalability.
 
@@ -75,7 +95,7 @@ Structure of the Alternatives Section:
 
 ### Example:
 
-___Alternatives Considered:__
+__Alternatives Considered__:
 
 * __Alternative A__: Docker as the Kubernetes Container Runtime Interface (CRI)
   * __Pros__: Widely adopted, mature tooling, and strong familiarity among developers.
@@ -102,6 +122,25 @@ In this section, we outline the outcomes of the decision, considering both its p
   *A plan to revisit and evaluate the decision and its effectiveness after the implementation, possibly scheduling a review date to assess the outcome.
 
 To ensure accountability and clarity, all outcomes should have corresponding tickets created to track the related tasks and progress effectively.
+
+### Example
+
+__Consequences__: Adopting Containerd as the Primary Kubernetes CRI
+
+* __Improved Flexibility and Scalability__:
+  * Containerd's modular architecture and extensibility provide the project with a robust foundation for adapting to evolving requirements and scaling efficiently.
+* __Enhanced Integration and Compatibility__:
+  * Containerd is a CNCF-graduated project widely adopted by major Kubernetes platforms such as GKE, EKS, and AKS. Aligning with this standard reduces integration complexity and ensures compatibility with future Kubernetes developments.
+* __Better Maintainability__:
+  * The strong separation of concerns between runtime operations and orchestration simplifies maintenance and fosters a cleaner, more manageable system architecture.
+* __Community Support and Ecosystem Benefits__:
+  * Containerd enjoys active community engagement, extensive documentation, and a large user base, offering reliable support and resources to address challenges effectively.
+* __Future-Proof Solution__:
+  * The adoption of Containerd aligns the project with cloud-native standards and industry trends, ensuring long-term viability and reducing risks of technical debt.
+* __Streamlined Operations__:
+  * The lightweight and high-performance design of Containerd improves overall operational efficiency while supporting essential container management features like image handling and runtime abstraction.
+
+By adopting Containerd, the project leverages a stable, well-supported CRI, facilitating operational excellence and aligning with Kubernetes ecosystem best practices.
 
 ## References
 
