@@ -7,7 +7,7 @@ DeciCollab is a short and impactful name that emphasizes both the decision-makin
 * __Core Focus__: 
   * DeciCollab is a repository designed to streamline and document the ideas how architecture decisions made within a collaborative environment. Whether it's architectural choices, technical debt, or strategic product decisions, this repository serves as the central hub for all decision-related discussions.
 * __Collaborative Element__:
-  * The name “Collab” points directly to the importance of inclusivity and communication across multiple teams. It implies an open, transparent process where all stakeholders—developers, product owners, architects, and other team members—have a voice in the architetecture decision-making.
+  * The name “Collab” points directly to the importance of inclusivity and communication across multiple teams and inside a small team. It implies an open, transparent process where all stakeholders—developers, product owners, architects, and other team members—have a voice in the architetecture decision-making.
 * __Streamlining Decision Tracking__:
   * By using DeciCollab, teams can document decisions through structured templates (such as Architecture Decision Records (ADRs) and Technichal Dept Records (TDRs)) that include the rationale behind decisions, trade-offs, and impacts. This helps everyone keep track of past decisions, especially for complex projects or systems.
 * __Optimized for Iteration__:
@@ -17,11 +17,12 @@ Possible Features for the Repository:
 
 * Define a Innersource Pattern for ADRs/TDRs:
 * Reference Tools and Tipps of architectural and technical debt decisions.
+* Discuss the role of RFCs and why ADR's so important.
 
 ## Document Architecture Decisions Pattern
 
 * __Documentation of Decisions__:
-  * Use Architecture Decision Records (ADR) and Technical Debt Records (TDR) to document decisions and trade-offs made across teams.
+  * Use Architecture Decision Records (ADR) and Technical Debt Records (TDR) to document decisions and trade-offs made across teams or your system.
 * __Collaborative Input__:
   * Encourage cross-team contributions, with discussions around decisions to ensure diverse perspectives are considered.
 * __Transparent Process__:
@@ -31,9 +32,23 @@ Possible Features for the Repository:
 * __Decentralized Ownership__:
   * Support shared ownership of decisions, ensuring teams contribute to and benefit from each other’s insights and expertise.
 
+To fully understand ADRs we need to define some extra terms:
+
+* __Architecturally Significant Requirements (ASR)__:
+  * This is the change that demands an alteration to our system architecture. An example might be we need to have our application send emails to users.
+* __Architecture Decision (AD)__:
+  * The decision you make on how to address your ASR. In our example we may have decided to migrate form a classical OnPrime VMs to Cloud Based Kubernetes.
+* __Architecture Decision Record (ADR)__:
+  * Document this decision.
+* __Architecture Decision Log (ADL)__:
+  * The collection of ADRs representing.
+  * Define Searchable content.
+
 The first formulation of pattern:
 
 * [Request for comments - Document Architecture Decisions Pattern](./Document-Architecture-Decisions-Pattern.md)
+* [ADR Template](./ADR-Template.md)
+* [Documents with Record FAQ](./RECORD-FAQ.md)
 
 Reference to Innersource Patterns:
 
@@ -48,15 +63,16 @@ Reference to Innersource Patterns:
 
 An ADR includes:
 
-* Title: A clear description of the decision.
-* Context: Background information and relevant constraints.
-* Decision: The choice made.
-* Alternatives: Options considered, with reasons for rejection.
-* Consequences: Impact of the decision, both positive and negative.
+* __Title__: A clear description of the decision.
+* __Context__: Background information and relevant constraints.
+* __Decision__: The choice made.
+* __Alternatives__: Options considered, with reasons for rejection.
+* __Consequences__: Impact of the decision, both positive and negative.
 
 ADRs ensure traceability, transparency, and alignment among stakeholders, helping teams understand and revisit past decisions as the system evolves.
 
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+* [ADR Template](./ADR-Template.md)
 
 ### Arc 42
 
@@ -79,6 +95,7 @@ A really good RFC collaborations pattern still exists:
 * [Transparent Cross-Team Decision Making using RFCs](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/2-structured/transparent-cross-team-decision-making-using-rfcs.md)
   * Is ADR and TDRs practical tools or a relevant separate pattern?
 * [RFC Definition](https://en.wikipedia.org/wiki/Request_for_Comments)
+* [Differences between RFCs and ADRs](https://news.ycombinator.com/item?id=26057068)
 
 How you decide architecture decisions?
 
@@ -104,9 +121,12 @@ Examples:
 ## More References
 
 * [Architectural Decision - AD](https://en.wikipedia.org/wiki/Architectural_decision)
+* [Architecture Desision Records: How and why use ADRs? ](https://scrum-master.org/en/architecture-decision-record-how-and-why-use-adrs/)
 * [Architecting Success: A Comprehensive Guide to Robust Architecture Decision Records](https://medium.com/@patrickkoss/architecting-success-a-comprehensive-guide-to-robust-architecture-decision-records-4c18e6888ba1)
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+* [Documenting Design Decisions using RFCs and ADRs](https://brunoscheufler.com/blog/2020-07-04-documenting-design-decisions-using-rfcs-and-adrs)
 * [How to write effective documentation for your open source project](https://opensource.com/article/20/3/documentation?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)
+* [How to Write Requests for Comments (RFCs) and Architecture Decision Reviews (ADRs)](https://jc1175.medium.com/how-to-write-requests-for-comments-rfcs-and-architecture-decision-reviews-adrs-aa0992e3149f)
 * [ISO/IEC 25010 - Quality of Software](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 * [Learnings from using ADR in a real project](https://blog.unexist.dev/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
 * [Open Decision Framework](https://opensource.com/open-organization/resources/open-decision-framework?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)
@@ -118,6 +138,5 @@ Examples:
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
 * [When Should I Write an Architecture Decision Record](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 https://opensource.com/article/20/3/documentation?extIdCarryOver=true&sc_cid=701f2000001Css0AAC
-
 
 `|-o-|` - The Humbled Sign Painter - <a href="mailto://peter.rossbach@bee42.com">Peter</a>
