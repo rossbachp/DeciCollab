@@ -87,3 +87,9 @@ There are multiple versions and variants of ADR templates available.
 * [ADR-Tools Nat Pryce - markdown](https://github.com/npryce/adr-tools)
 * [ADR-Tools - asciidoc](https://github.com/unexist/adr-tools)
 * [Record-Tools - acsiidoc](https://github.com/unexist/record-tools)
+
+## How you can find valueable ADR examples?
+
+* [Joel Parker Henderson - Multi Language ADR Examples](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/README.md)
+* [Learnings from using ADR in a real project](https://unexist.blog/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
+* [Repository of Architecture Decision Records made for the Arachne Framework](https://github.com/arachne-framework/architecture)
