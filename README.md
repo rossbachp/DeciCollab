@@ -43,12 +43,17 @@ To fully understand ADRs we need to define some extra terms:
 * __Architecture Decision Log (ADL)__:
   * The collection of ADRs representing.
   * Define Searchable content.
+* __Architecture Knowledge Management (AKM)__:
+  * The practice of systematically capturing, organizing, and sharing architectural decisions, rationale, and insights to ensure clarity, alignment, and reusability across teams and projects.
+* __Architecture Decision Process (ADP)__:
+  * The Proecess of creation, adpotion and inspection of the ADs
 
 The first formulation of pattern:
 
 * [Request for comments - Document Architecture Decisions Pattern](./Document-Architecture-Decisions-Pattern.md)
 * [ADR Template](./ADR-Template.md)
 * [Documents with Record FAQ](./RECORD-FAQ.md)
+* [AWS ADR Process](./AWS-ADR-Process.md)
 
 Reference to Innersource Patterns:
 
@@ -99,7 +104,7 @@ A really good RFC collaborations pattern still exists:
 
 How you decide architecture decisions?
 
-![](./Josef_Blake_architecture-decision-record_diagram.png)
+![](./images/Josef_Blake_architecture-decision-record_diagram.png)
 
 * [Published by Josef Blake](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 
@@ -120,9 +125,14 @@ Examples:
 
 ## More References
 
+
 * [Architectural Decision - AD](https://en.wikipedia.org/wiki/Architectural_decision)
 * [Architecture Desision Records: How and why use ADRs? ](https://scrum-master.org/en/architecture-decision-record-how-and-why-use-adrs/)
+* [Architecture decision record (ADR) - Joel Parker Henderson](https://github.com/joelparkerhenderson/architecture-decision-record)
+  * Realy good references and documentation
+* [ADR Hub](https://adr.github.io/)
 * [Architecting Success: A Comprehensive Guide to Robust Architecture Decision Records](https://medium.com/@patrickkoss/architecting-success-a-comprehensive-guide-to-robust-architecture-decision-records-4c18e6888ba1)
+* [AWS - Architectural Decision Process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html)
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [Documenting Design Decisions using RFCs and ADRs](https://brunoscheufler.com/blog/2020-07-04-documenting-design-decisions-using-rfcs-and-adrs)
 * [How to write effective documentation for your open source project](https://opensource.com/article/20/3/documentation?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)

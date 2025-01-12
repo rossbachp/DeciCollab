@@ -4,6 +4,26 @@
 
 Architectural Decision Records (ADRs) are vital as they promote transparency, minimize technical conflicts, streamline onboarding for new team members, and ensure the consistency and continuity of architectural decisions over time.
 
+## What information should an ADR contain?
+
+Each ADR should, at a minimum, include the following key elements:
+
+* __Context__:
+  * Clearly describe the background and rationale for the decision, including possible solutions the team evaluated. This section should also capture any relevant details about the project, customer requirements, or technology stack.
+* __Decision__:
+  * State the adopted solution explicitly and unambiguously, using imperative language. Avoid conditional terms like "should," and instead phrase decisions decisively, such as “We use…” or “The team must use…”.
+* __Consequences__:
+  * Highlight the known trade-offs, implications, and potential impact of the decision on the project and its deliverables.
+
+Additionally, each ADR must include:
+
+* __Status__:
+  * Indicating the decision's current state (e.g., proposed, approved, superseded).
+* __Changelog__:
+  * A record of changes with the date and the person responsible for each update.
+
+This structure ensures clarity, transparency, and accountability in decision-making.
+
 ## How do you start writing ADRs?
 
 Start by identifying architectural decisions that significantly impact the project. Use a standardized template to document each decision, capturing the context, available options, chosen solution, and anticipated consequences. Involve all relevant stakeholders to validate and provide feedback on the ADR.
@@ -38,9 +58,32 @@ Decisions that significantly affect system architecture, performance, security, 
 
 ## How do you ensure your Architecture Decision Records remain current?
 
-To ensure ADRs remain current, incorporate their management into your development and code review processes. Utilize tools such as MkDocs for documentation-as-code and ensure ADRs are regularly updated, particularly during significant project changes.
+To ensure ADRs remain current, incorporate their management into your development and code review processes. Utilize tools such as MkDocs, Hugo, Wikis for documentation-as-code and ensure ADRs are regularly updated, particularly during significant project changes.
 
 ## What are the common challenges in ADR management?
 
-Challenges include the time required to write and update ADRs, scalability as the number of participants grows, and identifying which decisions warrant an ADR. These issues can be addressed by establishing clear processes and utilizing the right tools.
+Challenges include the time investment needed to create and maintain ADRs, managing scalability as the number of contributors increases, and determining which decisions merit documentation. These challenges can be mitigated by defining clear guidelines and leveraging appropriate tools.
 
+To address these concerns, the project team should establish a structured ADR process that simplifies decision-making, avoids redundant debates on recurring topics, and ensures efficient communication of architectural decisions.
+
+## When should the project team create an ADR?
+
+The project team should document an ADR for every aspect of the software that impacts its structure (e.g., patterns like microservices), non-functional requirements (e.g., security, high availability, fault tolerance), dependencies (e.g., component coupling), interfaces (e.g., APIs and published contracts), and implementation methods (e.g., libraries, frameworks, tools, and processes).
+
+## How often should the project team review an ADR?
+
+The project team should review the ADR at least once before accepting it.
+
+## Who should create an ADR?
+
+Any team member is encouraged to create an ADR. It is recommended to establish a sense of ownership, where the author of an ADR actively maintains and updates its content while ensuring its visibility to the team. Contributions from other team members are welcome, but the ADR owner should approve any changes.
+
+## Where can you find ADR templates?
+
+There are multiple versions and variants of ADR templates available.
+
+* [ADR Templates](https://adr.github.io/adr-templates/)
+* [ADR-Tools - markdown](https://github.com/adr/adr-tools)
+* [ADR-Tools Nat Pryce - markdown](https://github.com/npryce/adr-tools)
+* [ADR-Tools - asciidoc](https://github.com/unexist/adr-tools)
+* [Record-Tools - acsiidoc](https://github.com/unexist/record-tools)

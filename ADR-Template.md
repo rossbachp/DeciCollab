@@ -4,9 +4,29 @@
 
 A good format for the title is `ADR-nnnn` or `yyyy-mm-dd` followed by a description of the proposed topic. The nnnn component represents a sequential number starting from 1.
 
-For example, `ADR-0002` or `2025-01-10`.
+For example, `ADR-0002`,`2025-01-10` or `ADR-0002-ContainerD-as-Kubernetes-CRI.md`
 
-Include the authors' names and email addresses.
+## Ownership
+
+ADR ownership refers to the accountability and responsibility for maintaining the accuracy, relevance, and lifecycle of an Architecture Decision Record (ADR). Ownership ensures that decisions are clearly documented, regularly reviewed, and updated as the project evolves. 
+
+Key aspects include:
+
+* __Responsibility__:
+  * A designated owner (e.g., the author, a team, or a lead architect) ensures the ADR reflects the latest understanding and direction of the project.
+* __Lifecycle Management__:
+  * Owners oversee the ADR’s status, transitioning it through phases like "Proposed," "Accepted," "Superseded," or "Deprecated."
+* __Collaboration__:
+  * The ADR owner facilitates discussions, collects feedback, and incorporates stakeholder input to maintain alignment across teams.
+* __Transparency__:
+  * Clear ownership promotes traceability, enabling everyone involved to understand who to contact for questions or further context.
+
+Effective ADR ownership is crucial for fostering accountability and keeping architectural documentation consistent and relevant.
+
+### Exmaple
+
+* Include the authors' names and email addresses.
+* Add a stakeholder or contributor list
 
 ## Status
 
@@ -141,6 +161,27 @@ __Consequences__: Adopting Containerd as the Primary Kubernetes CRI
   * The lightweight and high-performance design of Containerd improves overall operational efficiency while supporting essential container management features like image handling and runtime abstraction.
 
 By adopting Containerd, the project leverages a stable, well-supported CRI, facilitating operational excellence and aligning with Kubernetes ecosystem best practices.
+
+## Notes
+
+To ensure clarity, traceability, and ease of access, include the following components in an ADR:
+
+* __Creation Date__:
+  * The original date when the ADR was created, providing temporal context for the decision.
+* __Tags__:
+  * Relevant tags or labels that categorize the ADR (e.g., "Database," "Scalability," "API"), helping stakeholders quickly identify related topics.
+* __Keywords__:
+  * Specific terms associated with the decision, optimized for searchability within project documentation or repositories.
+* __History__:
+  * A chronological narrative of the ADR’s evolution, including discussions, iterations, and major milestones.
+* __Changelog__:
+  * A record of updates or revisions made to the ADR, including dates, descriptions of changes, and the responsible individual or team.
+* __Meetings__:
+  * A chronological list of disussion meetings
+* __Cross References:__:
+  * A list of other ADRs or important hints
+
+These elements enhance the usability and maintainability of ADRs, making them more valuable as a resource for teams.
 
 ## References
 

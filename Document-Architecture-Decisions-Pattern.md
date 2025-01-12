@@ -164,7 +164,9 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 
 ## Known Instances
 
-??
+[RED HAT](https://www.redhat.com/en/blog/architecture-decision-records)
+[AWS](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/welcome.html)
+[Joel Parker Quick Guide to ADR](https://github.com/joelparkerhenderson/architecture-decision-record)
 
 ## Status
 
