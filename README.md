@@ -78,6 +78,7 @@ ADRs ensure traceability, transparency, and alignment among stakeholders, helpin
 
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [ADR Template](./ADR-Template.md)
+* [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177)
 
 ### Arc 42
 
