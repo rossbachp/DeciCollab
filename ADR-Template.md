@@ -49,6 +49,21 @@ The status of an Architecture Decision Record (ADR) is typically represented as 
 
 Each status helps track the evolution of architectural decisions and ensures that all stakeholders understand their current standing and applicability in the project.
 
+```mermaid
+flowchart LR
+    Proposed    -- [Review] --> Accepted
+    Proposed    -- [Review] --> Rejected
+    Accepted    -- [Changing] --> Revisited
+    Revisited   -- [Review] --> Accepted
+    Accepted    -- [Outdated] --> Deprecated
+    Accepted    -- [Implemented] --> Closed
+    Accepted    -- [Replaced by new ADR] --> Superseded
+    Deprecated  -- [Canceled] --> End
+    Closed      -- [Not needed anymore] --> End
+    Superseded  -- [Replaced by] --> End
+    Rejected    --> End
+```
+
 ## Context - (Why)
 
 The context of an Architecture Decision Record (ADR) provides the background and rationale for the decision. It describes the situation or problem that led to the decision, including relevant technical, business, or environmental factors. This may include project requirements, constraints, existing systems, team preferences, or stakeholder needs. The goal is to clearly outline the "why" behind the decision, giving future readers an understanding of the circumstances and challenges at the time the decision was made.ne particular route to be more challenging.

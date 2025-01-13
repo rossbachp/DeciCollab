@@ -84,6 +84,7 @@ ADRs ensure traceability, transparency, and alignment among stakeholders, helpin
 [arc42](https://arc42.org) is a proven and practical framework for documenting and communicating software and system architectures. It provides a template that guides architects through systematically capturing essential aspects of an architecture, such as goals, requirements, constraints, solution building blocks, and runtime behavior.
 
 * [arc42 quality model](https://quality.arc42.org/articles/arc42-quality-model)
+* [ADR cards42 template](https://cards42.org/#adr)
 
 ### Open Decision Framework
 
@@ -131,22 +132,24 @@ Examples:
 * [Architecture decision record (ADR) - Joel Parker Henderson](https://github.com/joelparkerhenderson/architecture-decision-record)
   * Realy good references and documentation
 * [ADR Hub](https://adr.github.io/)
+* [ADRs—Explicit Decisions For Better And Faster Software](https://qeunit.com/blog/adrs-explicit-decisions-for-better-and-faster-software/)
 * [Architecting Success: A Comprehensive Guide to Robust Architecture Decision Records](https://medium.com/@patrickkoss/architecting-success-a-comprehensive-guide-to-robust-architecture-decision-records-4c18e6888ba1)
 * [AWS - Architectural Decision Process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html)
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [Documenting Design Decisions using RFCs and ADRs](https://brunoscheufler.com/blog/2020-07-04-documenting-design-decisions-using-rfcs-and-adrs)
 * [How to write effective documentation for your open source project](https://opensource.com/article/20/3/documentation?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)
 * [How to Write Requests for Comments (RFCs) and Architecture Decision Reviews (ADRs)](https://jc1175.medium.com/how-to-write-requests-for-comments-rfcs-and-architecture-decision-reviews-adrs-aa0992e3149f)
+* [Improve your IT landscape with Architecture Decision Records (ADR)](https://medium.com/geekculture/improve-your-it-landscape-with-architecture-decision-records-adr-accf6d1b4e12)
 * [ISO/IEC 25010 - Quality of Software](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 * [Learnings from using ADR in a real project](https://blog.unexist.dev/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
 * [Open Decision Framework](https://opensource.com/open-organization/resources/open-decision-framework?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)
 * [Requests for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
 * [Technical Debt Records Idea](https://www.heise.de/blog/Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
+* [The Markdown ADR (MADR) Template Explained and Distilled](https://ozimmer.ch/practices/2022/11/22/MADRTemplatePrimer.html)
+* [When Should I Write an Architecture Decision Record](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 * [Why Every Development Team Needs Architecture Decision Records](https://medium.com/@tyschenk20/why-every-development-team-needs-architecture-decision-records-ec78cde47e8d)
 * [Why you should be using architecture decision records to document your project](https://www.redhat.com/en/blog/architecture-decision-records)
 * [Writes Workshop](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
-* [When Should I Write an Architecture Decision Record](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
-https://opensource.com/article/20/3/documentation?extIdCarryOver=true&sc_cid=701f2000001Css0AAC
 
 `|-o-|` - The Humbled Sign Painter - <a href="mailto://peter.rossbach@bee42.com">Peter</a>

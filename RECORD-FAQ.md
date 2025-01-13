@@ -82,10 +82,11 @@ Any team member is encouraged to create an ADR. It is recommended to establish a
 
 There are multiple versions and variants of ADR templates available.
 
-* [ADR Templates](https://adr.github.io/adr-templates/)
+* [ADR Templates - markdown ](https://adr.github.io/adr-templates/)
+* [ADR-Tools - asciidoc](https://github.com/unexist/adr-tools)
 * [ADR-Tools - markdown](https://github.com/adr/adr-tools)
 * [ADR-Tools Nat Pryce - markdown](https://github.com/npryce/adr-tools)
-* [ADR-Tools - asciidoc](https://github.com/unexist/adr-tools)
+* [MADR Template- markdown](https://adr.github.io/madr/)
 * [Record-Tools - acsiidoc](https://github.com/unexist/record-tools)
 
 ## How you can find valueable ADR examples?

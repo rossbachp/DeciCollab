@@ -164,10 +164,12 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 
 ## Known Instances
 
-[RedHat: Why you should use ADRs](https://www.redhat.com/en/blog/architecture-decision-records)
-[Amazon: AWS Prescriptive Guidance: ADR Process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/welcome.html)
-[GitHub: ADR GitHub organization](https://adr.github.io/)
-[Joel Parker Templates to ADR](https://github.com/joelparkerhenderson/architecture-decision-record)
+* [ADRs at Google Cloud](https://cloud.google.com/architecture/architecture-decision-records)
+* [Amazon: AWS Prescriptive Guidance: ADR Process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/welcome.html)
+* [GitHub: ADR GitHub organization](https://adr.github.io/)
+* [How use Spotify ADRs](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
+* [Joel Parker Templates to ADR](https://github.com/joelparkerhenderson/architecture-decision-record)
+* [RedHat: Why you should use ADRs](https://www.redhat.com/en/blog/architecture-decision-records)
 
 ## Status
 
@@ -188,3 +190,4 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 * [Technical Debt Records Idea](https://www.heise.de/blog/Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
 * [Requests for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
+* [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177)
