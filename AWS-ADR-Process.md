@@ -3,6 +3,7 @@
 __IMPORTANT NOTE__:
   * This is cloned from [AWS ADR Process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html)
   * We adjust the formulations.
+  * Update to Mermaid graphs
 
 An architectural decision record (ADR) is a document that describes a choice the team makes about a significant aspect of the software architecture they’re planning to build. Each ADR describes the architectural decision, its context, and its consequences. ADRs have states and therefore follow a lifecycle. For an example of an ADR, see the [Challenges](./challenges/README.md).
 
@@ -37,7 +38,30 @@ Every team member can create an ADR, but the team should establish a definition 
 
 The following diagram illustrates the ADR creation, ownership, and adoption process.
 
-![ADR Creation](./images/adr-creation.png)
+```mermaid
+flowchart TD
+
+A1@{ shape: f-circ, label: "Start" } --> A2(Architecture decision is identified)
+A2 --> A3(Owner of the ADR draft is identified)
+A3 --> A4(Owner create an ADR in<br/>__Proposed__<br/>state)
+A4 --> A5(Owner organizes a team meeting to review the ADR)
+A6(Assigned people implement actions points) --> A5
+A7(ADR owner assigns people of the actions points) --> A6
+A5 --> A8{Accept by the team?}
+A8 -- No --> A8-1{Rejected by the team?}  
+A8 -- Yes -->A9(ADR is in<br/>__Accepted__<br/>state)
+A8-1 -- No --> A10(Team identifies action points to improve the ADR)
+A8-1 -- Yes --> A11(Owner updates the ADR with rejection reason)
+A10 --> A7
+A11 --> A12(ADR is in <br/>__Rejected__<br/>state)
+A9 --> A13@{ shape: f-circ, label: "END" }
+A12 --> A13
+
+classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+class A4,A9,A12 state;
+```
+
+__Picture 1__ : ADR Creation
 
 After the team identifies an architectural decision and its owner, the ADR owner provides the ADR in the Proposed state at the beginning of the process. ADRs in the Proposed state are ready for review.
 
@@ -53,7 +77,19 @@ ADRs and the decision log they create represent decisions made by the team and p
 
 The following diagram shows the process of applying an ADR to validate if a change in a software component conforms to the agreed decisions.
 
-![ADR Adoption](./images/adr-adoption.png)
+```mermaid
+flowchart TD
+A1@{ shape: f-circ, label: "Start" } --> A2(Change is implemented)
+A2 --> A3(Change is reviewed by the team)
+A3 --> A4{Violates other ADRs?}
+A4 -- Yes --> A5(Comment with a link to ADR)
+A5 --> A6(Change is updated by the change author)
+A6 --> A3
+A4 -- No --> A7(Change is approved)
+A7 --> A13@{ shape: f-circ, label: "END" }
+```
+__Picture 2__ : ADR Adoption
+
 
 As a good practice, each software change should go through peer reviews and require at least one approval. During the code review, a code reviewer might find changes that violate one or more ADRs. In this case, the reviewer asks the author of the code change to update the code, and shares a link to the ADR. When the author updates the code, it is approved by peer reviewers and merged into the main code base.
 
@@ -61,4 +97,30 @@ As a good practice, each software change should go through peer reviews and requ
 
 The team should treat ADRs as immutable documents after the team accepts or rejects them. Changes to an existing ADR requires creating a new ADR, establishing a review process for the new ADR, and approving the ADR. If the team approves the new ADR, the owner should change the state of the old ADR to Superseded. The following diagram illustrates the update process.
 
-![ADR Inspection](./images/adr-inspection.png)
+```mermaid
+flowchart TD
+
+A1@{ shape: f-circ, label: "Start" } --> A2(Improvement for ADR is identified)
+A2 --> A3(Owner of the ADR draft is identified)
+A3 --> A4(Owner create an ADR in <br/>__Proposed__<br/>state)
+A4 --> A5(Owner organizes a team meeting to review the ADR)
+A6(Assigned people implement actions points) --> A5
+A5 --> A8{Accept by the team?}
+
+A7(ADR owner assigns people of the actions points) --> A6
+A8 -- No --> A8-1{Rejected by the team?}  
+A8 -- Yes -->A9(New ADR is in <br/>__Accepted__<br/>state)
+A9 --> A14(Old ADR is in <br/>__Superseded__<br/>state)
+A8-1 -- No --> A10(Team identifies action points to improve the ADR)
+A8-1 -- Yes --> A11(Owner updates the ADR with rejection reason)
+A10 --> A7
+
+A11 --> A12(New ADR is in <br/> __Rejected__<br/>state)
+A14 --> A13@{ shape: f-circ, label: "END" }
+A12 --> A13
+
+classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+class A4,A9,A12,A14 state;
+```
+
+__Picture 3__ : ADR Inspection

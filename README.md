@@ -106,7 +106,21 @@ A really good RFC collaborations pattern still exists:
 
 How you decide architecture decisions?
 
-![](./images/Josef_Blake_architecture-decision-record_diagram.png)
+```mermaid
+flowchart TD
+A1@{ shape: f-circ, label: "Start" } --> A2(Do you have a problem?)
+A2 -- Yes --> A3{Is there a blessed solution?}
+A3 -- Yes --> A4{Is it documented?}
+A4 -- No --> A5(Write an ADR!)
+A3 -- No --> A6{Do you have a solution?}
+A6 -- Yes -->A7{Is it a big change?}
+A7 -- Yes --> A8(Write a RFC!)
+A8 --> A9{Did the RFC conclude with a solution?}
+A9 -- Yes --> A5
+A7 -- No --> A5
+A5 --> A10@{ shape: f-circ, label: "END" }
+```
+__Picture 4__: Josef Blake architecture decision record diagram
 
 * [Published by Josef Blake](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 
