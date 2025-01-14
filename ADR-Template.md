@@ -51,18 +51,26 @@ Each status helps track the evolution of architectural decisions and ensures tha
 
 ```mermaid
 flowchart LR
+    Start --> Proposed
     Proposed    -- [Review] --> Accepted
     Proposed    -- [Review] --> Rejected
     Accepted    -- [Changing] --> Revisited
     Revisited   -- [Review] --> Accepted
     Accepted    -- [Outdated] --> Deprecated
-    Accepted    -- [Implemented] --> Closed
     Accepted    -- [Replaced by new ADR] --> Superseded
     Deprecated  -- [Canceled] --> End
-    Closed      -- [Not needed anymore] --> End
+    Revisited   --> End
+    Accepted    -- [Not needed anymore] --> End
     Superseded  -- [Replaced by] --> End
     Rejected    --> End
+
+    Start@{ shape: f-circ, label: "Start" }
+    End@{ shape: f-circ, label: "End" }
+
+classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+class Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,Superseded state;
 ```
+__Picture 5__: ADR state flow
 
 ## Context - (Why)
 
