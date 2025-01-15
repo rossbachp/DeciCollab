@@ -86,6 +86,7 @@ There are multiple versions and variants of ADR templates available.
 * [ADR-Tools - asciidoc](https://github.com/unexist/adr-tools)
 * [ADR-Tools - markdown](https://github.com/adr/adr-tools)
 * [ADR-Tools Nat Pryce - markdown](https://github.com/npryce/adr-tools)
+* [e-adr](https://github.com/adr/e-adr)
 * [MADR Template- markdown](https://adr.github.io/madr/)
 * [Record-Tools - acsiidoc](https://github.com/unexist/record-tools)
 
@@ -94,3 +95,24 @@ There are multiple versions and variants of ADR templates available.
 * [Joel Parker Henderson - Multi Language ADR Examples](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/README.md)
 * [Learnings from using ADR in a real project](https://unexist.blog/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
 * [Repository of Architecture Decision Records made for the Arachne Framework](https://github.com/arachne-framework/architecture)
+
+## How to be discuss an ADR?
+
+To hold a workshop for Architecture Decision Records (ADRs):
+
+* __Set the Objective__: 
+  * Define the purpose, such as teaching ADR best practices or addressing real-world architectural decisions.
+* __Prepare Materials__:
+  * Create templates, examples of ADRs, and an agenda covering decision context, trade-offs, and rationale.
+* __Define a Scenario__:
+* Use a realistic project scenario where participants can identify, discuss, and document architectural decisions.
+* __Guide Hands-On Exercises__:
+  * Walk through writing an ADR collaboratively, explaining each section and the importance of concise, clear documentation.
+* __Review and Discuss__:
+  * Encourage peer reviews and discussions to reinforce learning and improve the quality of ADRs.
+* __Provide Resources__:
+  * Share tools and repositories for ongoing ADR documentation.
+
+End with a Q&A session to clarify doubts and solidify understanding.
+
+* [Writers Workshop](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
