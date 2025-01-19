@@ -184,6 +184,7 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 
 * [Architectural Decision](https://en.wikipedia.org/wiki/Architectural_decision)
 * [Architectural Decision Records](https://adr.github.io)
+* [Architectural Decisions — The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html)
 * [Michael Nygards ADRs Idea](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [Learnings from using ADR in a real project](https://blog.unexist.dev/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
 * [Technical Debt Records](https://github.com/ms1963/TechnicalDebtRecords)
@@ -191,3 +192,4 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 * [Requests for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
 * [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177)
+* [ADR Hub](https://adr.github.io/)
