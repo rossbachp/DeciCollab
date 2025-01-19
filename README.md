@@ -149,7 +149,7 @@ Examples:
 * [Architectural Decisions — The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html)
 * [ADR Hub](https://adr.github.io/)
 * [ADRs—Explicit Decisions For Better And Faster Software](https://qeunit.com/blog/adrs-explicit-decisions-for-better-and-faster-software/)
-* [Architecting Success: A Comprehensive Guide to Robust Architecture Decision Records](https://medium.com/@patrickkoss/architecting-success-a-comprehensive-guide-to-robust-architecture-decision-records-4c18e6888ba1)
+* [Architecting Success: A Comprehensive Guide to Robust Architecture Decision Records](https://medium.com/@patrickkoss/architecting-success-a-comprehensive-guide-to-robust-architecture-decision-records-4c18e6888ba1)#
 * [AWS - Architectural Decision Process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html)
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [Documenting Design Decisions using RFCs and ADRs](https://brunoscheufler.com/blog/2020-07-04-documenting-design-decisions-using-rfcs-and-adrs)
@@ -170,7 +170,5 @@ Examples:
 * [Writes Workshop](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
 * [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
-
-
 
 `|-o-|` - The Humbled Sign Painter - <a href="mailto://peter.rossbach@bee42.com">Peter</a>

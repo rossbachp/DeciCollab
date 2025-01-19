@@ -116,3 +116,49 @@ To hold a workshop for Architecture Decision Records (ADRs):
 End with a Q&A session to clarify doubts and solidify understanding.
 
 * [Writers Workshop](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
+
+## How do you define good criteria for deciding whether to grant approval?
+
+To define good criteria for decision-making or signing approvals, you should focus on clearly structured, relevant, and measurable factors that align with the objectives of the decision. Using tools like the Pugh matrix is helpful because it provides a systematic way to evaluate options against chosen criteria.
+
+### Define the Purpose of the Decision
+
+* What are you trying to achieve?
+* Is this decision operational, strategic, or tactical?
+* Align criteria with short- and long-term goals.
+
+### Identify and Validate Key Criteria
+
+Good criteria are:
+
+* Relevant: Linked directly to the goals and context of the decision.
+* Measurable: Quantifiable or with clear qualitative standards.
+* Comprehensive: Cover all significant aspects, like cost, quality, scalability, risk, time, etc.
+* Non-redundant: Avoid overlapping or unnecessary complexity.
+Examples:
+* For product selection: Functionality, cost, vendor support, compatibility.
+* For budget approvals: ROI, resource allocation, alignment with business strategy, risk mitigation.
+
+### Weight the Criteria
+
+Some factors are more critical than others. Assign weights based on priority (e.g., importance to stakeholders, potential impact).
+
+### Generate and Assess Options
+
+List out all potential options (projects, vendors, strategies, etc.). Then, evaluate them against the criteria using methods like the Pugh matrix:
+
+* Assign scores to each option per criterion (e.g., -1, 0, +1).
+* Use a baseline for comparison, if applicable.
+* Sum the weighted scores to determine which option performs best.
+
+### Validate Results
+
+Consult with stakeholders to ensure alignment and buy-in.
+Validate that the chosen option passes legal, compliance, or organizational thresholds.
+Consider external factors that might change the decision.
+
+### Monitor and Iterate
+
+Post-approval, track the performance and outcomes. Use feedback to refine the decision-making process and criteria for the future.
+
+* [Pugh matrix](https://www.decision-making-confidence.com/pugh-matrix.html)
