@@ -50,7 +50,7 @@ The time needed to draft an ADR depends on the complexity of the decision. Howev
 
 ## Who is the audience for discussing and deciding on Decision Records?
 
-The audience for discussing and deciding on Decision Records includes developers, architects, DevOps leads, and product owners.
+The audience for discussing and deciding on Decision Records includes developers, architects, DevOps leads, and product owners. The record owner and committer coordination the documentation, collobration meetings, decision, implementation, mentoring and acceptance of the consequences. 
 
 ## What types of decisions must be documented?
 
@@ -58,7 +58,7 @@ Decisions that significantly affect system architecture, performance, security, 
 
 ## How do you ensure your Architecture Decision Records remain current?
 
-To ensure ADRs remain current, incorporate their management into your development and code review processes. Utilize tools such as MkDocs, Hugo, Wikis for documentation-as-code and ensure ADRs are regularly updated, particularly during significant project changes.
+To ensure ADRs remain current, incorporate their management into your development and code review processes. Utilize tools such as MkDocs, Hugo, CMS, Wikis for documentation-as-code and ensure ADRs are regularly updated, particularly during significant project changes.
 
 ## What are the common challenges in ADR management?
 
@@ -105,7 +105,7 @@ To hold a workshop for Architecture Decision Records (ADRs):
 * __Prepare Materials__:
   * Create templates, examples of ADRs, and an agenda covering decision context, trade-offs, and rationale.
 * __Define a Scenario__:
-* Use a realistic project scenario where participants can identify, discuss, and document architectural decisions.
+  * Use a realistic project scenario where participants can identify, discuss, and document architectural decisions.
 * __Guide Hands-On Exercises__:
   * Walk through writing an ADR collaboratively, explaining each section and the importance of concise, clear documentation.
 * __Review and Discuss__:
@@ -162,3 +162,39 @@ Consider external factors that might change the decision.
 Post-approval, track the performance and outcomes. Use feedback to refine the decision-making process and criteria for the future.
 
 * [Pugh matrix](https://www.decision-making-confidence.com/pugh-matrix.html)
+
+## How Does Voting Work?
+
+Reasons for votes:
+
+People often shy away from addressing conflicts directly and instead seek alternatives, such as relying on authority figures, strict rules, rigid processes, or settling into stagnation. However, these substitutes rarely prove as effective as putting in the effort to resolve the conflict constructively.
+
+Rules:
+
+- The ADR must be discussed publicly and fully documented.
+- A minimum of three committers must sign the decision record (ADR).
+- The voting date must be announced in a public channel in advance.
+- A minimun of three positive votes must be exists.
+- For an approval, there must be more "+1" votes than "-1" votes.
+- Voting periods should generally run for at least 72 hours to provide an opportunity for all concerned persons to participate, regardless of their geographic location.
+
+Voting Guidelines:
+
+- **+1**: Indicates **YES**, accepting the decision and its documented consequences.
+- **0**: Indicates a neutral stance **(YES/NO)**.
+- **-1**: Indicates **NO** and requires a rationale, which must be clearly documented.
+
+* [APACHE Foundation Voting Process](https://www.apache.org/foundation/voting.html)
+
+## History of ADRs
+
+Architectural Decision Records (ADRs) have evolved as a practical method to document and communicate key architectural choices. The concept gained traction with industry thought leaders:
+
+* 2011: [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+  *  Michael Nygard popularized ADRs through Documenting Architecture Decisions, a blog post that highlighted their simplicity and value in maintaining team alignment.
+  * [ADR-tools](https://github.com/npryce/adr-tools)
+* 2024: [Timing Architectural Decisions](https://ozimmer.ch/assets/presos/ZIO-ITARCKeynoteTADv101p.pdf)
+  * Olaf Zimmermann introduced the idea of Timing Architectural Decisions, emphasizing the importance of making and capturing decisions when they matter most.
+  * [Blog Posts Olaf Zimmermann](https://ozimmer.ch/tags/#architectural-decisions)
+
+ADRs continue to be a cornerstone for structured decision-making in software architecture.

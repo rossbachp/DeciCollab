@@ -115,16 +115,20 @@ A4 -- No --> A5(Write an ADR!)
 A3 -- No --> A6{Do you have a solution?}
 A6 -- Yes -->A7{Is it a big change?}
 A7 -- Yes --> A8(Write a RFC!)
+A5 --> A11(Document Technical Debt)
 A8 --> A9{Did the RFC conclude with a solution?}
 A9 -- Yes --> A5
 A7 -- No --> A5
-A5 --> A10@{ shape: f-circ, label: "END" }
+A11 --> A10@{ shape: f-circ, label: "END" }
+
+classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+class A11,A5,A8 state;
 ```
 __Picture 4__: Josef Blake architecture decision record diagram
 
 * [Published by Josef Blake](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 
-### Technical Dept Records
+### Technical Debt Records
 
 [Technical Debt Records (TDRs)](https://github.com/ms1963/TechnicalDebtRecords) are a structured approach to documenting and managing technical debt within software projects. They provide a standardized format to record instances of technical debt, including details such as the nature of the debt, its implications, and strategies for resolution. Implementing TDRs enhances transparency, facilitates better decision-making, and aids in prioritizing technical debt remediation efforts.
 
@@ -139,8 +143,7 @@ Examples:
 * [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar)
 * [Zalando Tech-radar](https://opensource.zalando.com/tech-radar/)
 
-## More References
-
+## ADR readings
 
 * [Architectural Decision - AD](https://en.wikipedia.org/wiki/Architectural_decision)
 * [Architecture Desision Records: How and why use ADRs? ](https://scrum-master.org/en/architecture-decision-record-how-and-why-use-adrs/)

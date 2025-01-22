@@ -185,7 +185,7 @@ __Consequences__: Adopting Containerd as the Primary Kubernetes CRI
 
 By adopting Containerd, the project leverages a stable, well-supported CRI, facilitating operational excellence and aligning with Kubernetes ecosystem best practices.
 
-## Notes
+## Metadata
 
 To ensure clarity, traceability, and ease of access, include the following components in an ADR:
 
