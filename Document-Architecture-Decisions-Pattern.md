@@ -170,6 +170,7 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 * [How use Spotify ADRs](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 * [Joel Parker Templates to ADR](https://github.com/joelparkerhenderson/architecture-decision-record)
 * [RedHat: Why you should use ADRs](https://www.redhat.com/en/blog/architecture-decision-records)
+* [Using Architecture Decision Records in Open Source Projects—An MSR Study on GitHub](https://ieeexplore.ieee.org/document/10155430)
 
 ## Status
 

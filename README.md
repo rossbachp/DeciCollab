@@ -38,6 +38,7 @@ To fully understand ADRs we need to define some extra terms:
   * This is the change that demands an alteration to our system architecture. An example might be we need to have our application send emails to users.
 * __Architecture Decision (AD)__:
   * The decision you make on how to address your ASR. In our example we may have decided to migrate form a classical OnPrime VMs to Cloud Based Kubernetes.
+  * or __Architectural Design Decisions (ADDs)__
 * __Architecture Decision Record (ADR)__:
   * Document this decision.
 * __Architecture Decision Log (ADL)__:
@@ -45,6 +46,7 @@ To fully understand ADRs we need to define some extra terms:
   * Define Searchable content.
 * __Architecture Knowledge Management (AKM)__:
   * The practice of systematically capturing, organizing, and sharing architectural decisions, rationale, and insights to ensure clarity, alignment, and reusability across teams and projects.
+  * or __Software architecture knowledge management (SAKM)__
 * __Architecture Decision Process (ADP)__:
   * The Proecess of creation, adpotion and inspection of the ADs
 
@@ -167,6 +169,7 @@ Examples:
 * [Sustainable Architectural Design Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions/)
 * [Technical Debt Records Idea](https://www.heise.de/blog/Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
 * [The Markdown ADR (MADR) Template Explained and Distilled](https://ozimmer.ch/practices/2022/11/22/MADRTemplatePrimer.html)
+* [Using Architecture Decision Records in Open Source Projects—An MSR Study on GitHub](https://ieeexplore.ieee.org/document/10155430)
 * [When Should I Write an Architecture Decision Record](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 * [Why Every Development Team Needs Architecture Decision Records](https://medium.com/@tyschenk20/why-every-development-team-needs-architecture-decision-records-ec78cde47e8d)
 * [Why you should be using architecture decision records to document your project](https://www.redhat.com/en/blog/architecture-decision-records)
