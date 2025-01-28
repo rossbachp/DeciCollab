@@ -143,7 +143,10 @@ The Technology Radar is a bi-annual publication that provides insights into emer
 Examples:
 
 * [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar)
+  * [Thoughtworks byor](https://www.thoughtworks.com/radar/byor)
 * [Zalando Tech-radar](https://opensource.zalando.com/tech-radar/)
+  * [Technology Choices at Zalando Tech Radar Update](https://engineering.zalando.com/posts/2020/07/technology-choices-at-zalando-tech-radar-update.html)
+
 
 ## ADR readings
 
