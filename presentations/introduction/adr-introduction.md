@@ -40,6 +40,26 @@ Peter Rossbach is the founder of bee42, a system architect, DevOps advocate, Apa
 
 <!-- end_slide -->
 
+## ADR - Workshop Agenda
+
+```mermaid +render
+flowchart TD
+
+A1@{ shape: f-circ, label: "Start" } --> A2(ADR Presentation)
+A2 --> A3(Tutor ADR example explained)
+A3 --> A4(Writer Workshop)
+A4 --> A5(Students Write a ADR)
+A5 --> A6(Writer Workshop)
+A6 --> A7(Ask me Anything)
+A7 --> A8@{ shape: f-circ, label: "END" }
+
+
+classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+class A4,A6,A7 state;
+```
+
+<!-- end_slide -->
+
 ## ADR - Governance Model
 
 ---
@@ -82,7 +102,11 @@ A3 --> A5{Accept by the team?}
 A5 -- Fix issues --> A4
 A5 -- Yes -->A6(ADR is in<br/>__Accepted__<br/>state)
 A5 -- No -->A7(ADR is in <br/>__Rejected__<br/>state)
-
+A6 -->A10(ADR is in<br/>__Superseded__<br/>state)
+A7 --> A10
+A10 --> A8
+A6 --> A11(ADR is in <br/>__Implemented__<br/>state)
+A6 --> A12(ADR is in <br/>__Deprecaded__<br/>state)
 A6 --> A8@{ shape: f-circ, label: "END" }
 A7 --> A8
 
@@ -147,6 +171,8 @@ See Michael Nygard's article, linked above.
 
 ## ADR - Status
 
+* __Drafted__:
+  * The decision is prepared for proposing.
 * __Proposed__:
   * The decision is under consideration and open for discussion. No final agreement has been reached.
 * __Accepted__:
@@ -159,8 +185,30 @@ See Michael Nygard's article, linked above.
   * The decision has been replaced by another ADR that reflects a more up-to-date solution.
 * __Implemented__:
   * The decision has been fully integrated into the system and is currently in use.
-* __Revisited__:
-  * The decision is being reviewed to assess its relevance or effectiveness, usually triggered by new information or changing conditions.
+
+<!-- end_slide -->
+
+## ADR - Status Flowchart
+
+```mermaid +render
+flowchart TD
+
+A1@{ shape: f-circ, label: "Start" } --> A3(ADR is in<br/>__Drafted__<br/>state)
+A3 -->A4(ADR is in<br/>__Proposed__<br/>state)
+A4 -->A6(ADR is in<br/>__Accepted__<br/>state)
+A4 --> A7(ADR is in <br/>__Rejected__<br/>state)
+A6 -->A10(Old ADR is in<br/>__Superseded__<br/>state)
+A6 --> A11(ADR is in <br/>__Implemented__<br/>state)
+A6 --> A12(ADR is in <br/>__Deprecated__<br/>state)
+A8@{ shape: f-circ, label: "END" }
+A12 --> A8
+A11 --> A8
+A10 --> A8
+A7 --> A8
+
+classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+class A6,A7,A10,A11 state;
+```
 
 <!-- end_slide -->
 
@@ -176,8 +224,9 @@ See Michael Nygard's article, linked above.
   * Out of the Box ideas
 * Decision Meeting
   * Decside
-  * Voting with arguments
+  * Sync/async - Voting with arguments
   * Superseded a ADR
+  * Review Governance Model and Practice
 * Pair Writing Sessions
   * Contribute to the document
   * Implementation
@@ -212,6 +261,37 @@ Voting:
 
 <!-- end_slide -->
 
+## ADR - Examples
+
+### Tutor 
+
+* Adopt Kubernetes for Container Ocrechestration
+
+### Students
+
+* Logging
+* Golang yes/no
+* Microservice vs Monolith
+* Migrate to Container
+
+### After Writing present at Writes Workshop
+
+### Feedback
+
+<!-- end_slide -->
+
+## ADR - Tools
+
+* [ADR Templates - markdown ](https://adr.github.io/adr-templates/)
+* [ADR-Tools - asciidoc](https://github.com/unexist/adr-tools)
+* [ADR-Tools - markdown](https://github.com/adr/adr-tools)
+* [ADR-Tools Nat Pryce - markdown](https://github.com/npryce/adr-tools)
+* [E-ADR](https://github.com/adr/e-adr)
+* [MADR Template- markdown](https://adr.github.io/madr/)
+* [Record-Tools - acsiidoc](https://github.com/unexist/record-tools)
+
+<!-- end_slide -->
+
 ## ADR - Summary
 
 ---
@@ -243,7 +323,9 @@ Voting:
 
 Many thanks for listing,
 
-`|-o-|` The humbled sign painter - Peter
+* `|-o-|` The humbled sign painter - Peter Rossbach
+* Christoph Kappel
+
 
 ![](./images/Container-Logo-Blue.png)
 

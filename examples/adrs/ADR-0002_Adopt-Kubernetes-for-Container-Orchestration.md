@@ -1,12 +1,12 @@
 # ADR-0002: Adopt Kubernetes for Container Orchestration
 
-Title: ADR-0002_Adopt-Kubernetes-for-Container-Orchestration
-Date: 20250128
+Title:  ADR-0002_Adopt-Kubernetes-for-Container-Orchestration
+Date:   20250128
 Author: [Peter Rossbach](mailto://peter.rossbach@bee42.com)
 
 ## Status
 
-__Proposed__
+[Drafted | __Proposed__ | Accepted | Rejected | Deprecated | Superseded | Implemented]
 
 ## Context
 
@@ -41,17 +41,18 @@ Kubernetes enables multi-cloud and hybrid-cloud strategies, reducing vendor lock
 #### Rich Ecosystem
 
 The Kubernetes ecosystem, including Helm charts, Operators, and CRDs (Custom Resource Definitions), provides a wide variety of solutions for diverse application requirements, simplifying both development and operations.
-Consequences
 
-#### Complexity of Setup and Operations
+## Consequences
+
+### Complexity of Setup and Operations
 
 Kubernetes introduces operational complexity, including cluster maintenance, networking configuration, and security. The organization must invest in training and documentation to ensure operational success.
 
-#### Initial Learning Curve
+### Initial Learning Curve
 
 There will be an initial investment in upskilling the development and DevOps teams to effectively work with Kubernetes and its ecosystem.
 
-#### Additional Infrastructure Overhead
+### Additional Infrastructure Overhead
 
 Kubernetes clusters can introduce overhead costs in terms of infrastructure usage, which must be carefully optimized as part of operational planning.
 
