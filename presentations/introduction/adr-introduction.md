@@ -391,7 +391,7 @@ Guide students on adopting Kubernetes for container orchestration.
 
 - **Document Decisions**
   - Use a standard template
-  - Accept the governance rules of you ADR Process
+  - All people must accept the governance rules of your ADR Process
 
 - **Collobrations**
   - Discuss your context
