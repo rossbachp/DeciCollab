@@ -299,7 +299,7 @@ Goals of a Writer’s Workshop
 
 ---
 
-* [writers-workshop by Hillside]https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop
+* [Writers Workshop by Hillside](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
 
 <!-- end_slide -->
 
