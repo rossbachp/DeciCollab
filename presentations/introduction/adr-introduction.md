@@ -228,34 +228,6 @@ class A6,A7,A10,A11 state;
 
 <!-- end_slide -->
 
-## ADR - Voting Guidelines
-
-<!-- column_layout: [1, 1] -->
-
-<!-- column: 0 -->
-
-Rules:
-
-- The ADR must be discussed publicly and fully documented.
-- A minimum of three committers must sign the decision record (ADR).
-- The voting date must be announced in a public channel in advance.
-- A minimun of three positive votes must be exists.
-- For an approval, there must be more "+1" votes than "-1" votes.
-- Voting periods should generally run for at least 72 hours to provide an opportunity for all concerned persons to participate, regardless of their geographic location.
-
-<!-- column: 1 -->
-
-Voting:
-
-- **+1**:
-  - Indicates **YES**, accepting the decision and its documented consequences.
-- **0**:
-  - Indicates a neutral stance **(YES/NO)**.
-- **-1**:
-  - Indicates **NO** and requires a rationale, which must be clearly documented.
-
-<!-- end_slide -->
-
 ## Writer’s Workshop
 
 ---
@@ -301,6 +273,61 @@ Goals of a Writer’s Workshop
   * Respect the privacy of workshop discussions and do not share others' work without permission.
 * __Writers Have the Final Say__
   * Feedback is a suggestion, not a directive. The writer decides which changes to make.
+
+<!-- end_slide -->
+
+## ADR - How to Hold a Writer’s Workshop
+
+---
+
+* __Preparation__
+  * Writers submit drafts in advance for review.
+* __Seating Circle__
+  * Participants sit in a circle for open discussion.
+* __Author Reads Quietly__
+  * The author listens while others discuss their work.
+* __Start with Positives__
+  * Begin with strengths before critiques.
+* __Constructive Feedback__
+  * Offer clear, actionable suggestions.
+* __Avoid Defensiveness__
+  * The author does not justify their work during feedback.
+* __Moderator Guides Discussion__
+  * Keeps conversation focused and productive.
+* __Wrap-Up__
+  * Summarize key insights and next steps.
+
+---
+
+* [writers-workshop by Hillside]https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop
+
+<!-- end_slide -->
+
+## ADR - Voting Guidelines
+
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+
+Rules:
+
+- The ADR must be discussed publicly and fully documented.
+- A minimum of three committers must sign the decision record (ADR).
+- The voting date must be announced in a public channel in advance.
+- A minimun of three positive votes must be exists.
+- For an approval, there must be more "+1" votes than "-1" votes.
+- Voting periods should generally run for at least 72 hours to provide an opportunity for all concerned persons to participate, regardless of their geographic location.
+
+<!-- column: 1 -->
+
+Voting:
+
+- **+1**:
+  - Indicates **YES**, accepting the decision and its documented consequences.
+- **0**:
+  - Indicates a neutral stance **(YES/NO)**.
+- **-1**:
+  - Indicates **NO** and requires a rationale, which must be clearly documented.
 
 <!-- end_slide -->
 
