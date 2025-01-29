@@ -1,5 +1,7 @@
 # ADR-0003: Use GitOps for Kubernetes Deployments
 
+## Metadata
+
 Title:  ADR-0003_Use-GitOps-for-Kubernetes-Deployments
 Date:   20250128
 Author: [Peter Rossbach](mailto://peter.rossbach@bee42.com)

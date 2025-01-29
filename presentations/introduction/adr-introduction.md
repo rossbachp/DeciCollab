@@ -45,17 +45,18 @@ Peter Rossbach is the founder of bee42, a system architect, DevOps advocate, Apa
 ```mermaid +render
 flowchart TD
 
-A1@{ shape: f-circ, label: "Start" } --> A2(ADR Presentation)
-A2 --> A3(Tutor ADR example explained)
-A3 --> A4(Writer Workshop)
-A4 --> A5(Students Write a ADR)
-A5 --> A6(Writer Workshop)
-A6 --> A7(Ask me Anything)
-A7 --> A8@{ shape: f-circ, label: "END" }
+A1@{ shape: f-circ, label: "START" } --> A2(ADR Presentation)
+A2 --> A3(Tutor - ADR explained)
+A3 --> A4[Students - Writer Workshop]
+A4 --> A5(Students - Write an ADR)
+A5 --> A6[Tutor - Writer Workshop]
+A6 --> A7(All - Feedback)
+A7 --> A8(Students - Ask me Anything)
+A8 --> A9@{ shape: f-circ, label: "END" }
 
 
 classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
-class A4,A6,A7 state;
+class A4,A6,A8 state;
 ```
 
 <!-- end_slide -->
@@ -76,7 +77,7 @@ D(Principal Team Leads) --> A
 E(Owner and Commiters) --> B
 B <--> F(Writers Workshops)
 B --> H(Collaborations)
-B --> P(Implementation)
+B <--> P(Implementation)
 Y(Real problem with context) --> C
 F <--> C(Architecture Decision)
 H --> C
@@ -102,11 +103,6 @@ A3 --> A5{Accept by the team?}
 A5 -- Fix issues --> A4
 A5 -- Yes -->A6(ADR is in<br/>__Accepted__<br/>state)
 A5 -- No -->A7(ADR is in <br/>__Rejected__<br/>state)
-A6 -->A10(ADR is in<br/>__Superseded__<br/>state)
-A7 --> A10
-A10 --> A8
-A6 --> A11(ADR is in <br/>__Implemented__<br/>state)
-A6 --> A12(ADR is in <br/>__Deprecaded__<br/>state)
 A6 --> A8@{ shape: f-circ, label: "END" }
 A7 --> A8
 
@@ -135,21 +131,19 @@ class A3,A6,A7 state;
 
 ```markdown
 
-# Record architecture decisions
-
-## Title
-
-ADR-0001-Record-Architecture-Decisions
+# ADR-0001: Docuument with Architecture Decision Records
 
 ## Metadata
 
-Date: 2016-02-12
+Title:  ADR-0001_Docuument-With-Architecture-Decision-Records
+Date:   20250123
+Author: [Peter Rossbach](mailto://peter.rossbach@bee42.com)
 Keywords: ADR
 Tags: type=organisation
 
 ## Status
 
-Accepted
+[Drafted | Proposed | __Accepted__ | Rejected | Deprecated | Superseded | Implemented]
 
 ## Context
 
@@ -157,14 +151,17 @@ We need to record the architectural decisions made on this project.
 
 ## Decision
 
-We will use Architecture Decision Records, as described by Michael Nygard in this article: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
+We will use Architecture Decision Records, as described by Michael Nygard in this article:
+
+* [Documenting architecture decisions](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)
 
 ## Consequences
 
 See Michael Nygard's article, linked above.
-```
 
-* [ADR-npryce]
+## Notes
+
+* [Original ADR Example - npryce]
 (https://github.com/npryce/adr-tools/blob/master/doc/adr/0001-record-architecture-decisions.md)
 
 <!-- end_slide -->
@@ -261,26 +258,92 @@ Voting:
 
 <!-- end_slide -->
 
-## ADR - Examples
+## Writer’s Workshop
 
-### Tutor 
+---
 
-* Adopt Kubernetes for Container Ocrechestration
+Key Components of a Writer’s Workshop
+
+* __Writing Time__
+  * Writers draft, revise, and refine their work, often based on prompts or themes.
+* __Sharing & Feedback__
+  * Participants present their writing and receive constructive critiques.
+* __Discussion & Reflection__
+  * Writers and reviewers analyze strengths, areas for improvement, and possible revisions.
+* __Revision & Growth__
+  * Writers refine their work based on feedback, learning from the process.
+
+Goals of a Writer’s Workshop
+
+* Improve writing skills through continuous practice and critique.
+* Encourage self-reflection and revision as part of the creative process.
+* Build a supportive writing community that values diverse voices and styles.
+
+<!-- end_slide -->
+
+## Rules of a Writer’s Workshop
+
+---
+
+* __Respect All Contributions__
+  * Provide constructive feedback while respecting the writer’s intent and style.
+* __Listen Before Critiquing__
+  * Allow the writer to fully present their work before offering comments.
+* __Focus on the Writing, Not the Writer__
+  * Critique the work, not the person. Keep feedback professional and supportive.
+* __Be Specific in Feedback__
+  * Use examples to highlight strengths and areas for improvement. Avoid vague statements like “I didn’t like it” without explanation.
+* __Balance Praise and Critique__
+  * Acknowledge what works well along with suggestions for improvement.
+* __Encourage Growth, Not Perfection__
+  * The goal is to help each writer improve, not to demand flawlessness.
+* __Follow Time Limits__
+  * Be mindful of everyone’s time. Keep discussions focused and productive.
+* __Confidentiality Matters__
+  * Respect the privacy of workshop discussions and do not share others' work without permission.
+* __Writers Have the Final Say__
+  * Feedback is a suggestion, not a directive. The writer decides which changes to make.
+
+<!-- end_slide -->
+
+## ADR - Workshop
+
+---
+
+### Tutor
+
+Guide students on adopting Kubernetes for container orchestration.
 
 ### Students
 
-* Logging
-* Golang yes/no
-* Microservice vs Monolith
-* Migrate to Container
+* Understand logging best practices in a containerized environment.
+* Decide whether to use Golang for development.
+* Compare Microservices vs. Monolith architectures.
+* Learn how to migrate applications to containers effectively.
 
-### After Writing present at Writes Workshop
+### Post-Writing Activity
 
-### Feedback
+* Present findings at the Writer’s Workshop for discussion.
+* Feedback Process
+* Receive constructive critiques from peers and mentors.
+* Discuss strengths, improvements, and refinements.
 
 <!-- end_slide -->
 
 ## ADR - Tools
+
+---
+
+### Why Use ADR Tools?
+
+* Consistency – Standardizes the format of Architecture Decision Records (ADRs).
+* Traceability – Tracks decisions over time with clear historical context.
+* Collaboration – Encourages team discussions and documentation.
+* Version Control – Stores ADRs in Git for easy auditing and rollbacks.
+* Automation – Simplifies the creation and management of ADRs.
+* Clarity – Makes architectural choices transparent for future stakeholders.
+
+### Tools
 
 * [ADR Templates - markdown ](https://adr.github.io/adr-templates/)
 * [ADR-Tools - asciidoc](https://github.com/unexist/adr-tools)

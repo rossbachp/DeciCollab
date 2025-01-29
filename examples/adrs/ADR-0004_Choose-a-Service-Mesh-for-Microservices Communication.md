@@ -1,5 +1,7 @@
 # ADR-0004: Choose a Service Mesh for Microservices Communication
 
+## Metadata
+
 Title:  ADR-0004_Choose-a-Service-Mesh-for-Microservices Communication
 Date:   20250128
 Author: [Peter Rossbach](mailto://peter.rossbach@bee42.com)
@@ -7,7 +9,6 @@ Author: [Peter Rossbach](mailto://peter.rossbach@bee42.com)
 ## Status
 
 [__Drafted__ | Proposed | Accepted | Rejected | Deprecated | Superseded | Implemented]
-
 
 ## Context
 

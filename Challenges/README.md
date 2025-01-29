@@ -3,10 +3,19 @@
 ## Prepare
 
 * Invite the students
-* Explain the ADR and TDR Templates
 * Create a Cheat Sheet
 
-## Challenge
+## Agenda
+
+* Explain the ADR and TDR Method
+* Tutor Proposed a pre written ADR
+* Students held first Writers Workshop
+* Studends write a drafted ADR
+* Tutor held a writes Workshop
+* All give Feedback
+* Ask my Anything
+
+## Challenges
 
 * Let the students choose one of the prepapred ADR or TDR
   * Explain the ADR/THR
