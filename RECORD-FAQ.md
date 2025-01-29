@@ -117,6 +117,25 @@ End with a Q&A session to clarify doubts and solidify understanding.
 
 * [Writers Workshop](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
 
+## What is a Writer’s Workshop?
+
+A Writer’s Workshop is a structured yet collaborative environment where writers share their work, receive feedback, and improve their craft. It is commonly used in schools, professional writing groups, and creative circles to foster a supportive community of writers.
+
+Key Components of a Writer’s Workshop
+
+* __Writing Time__ – Writers draft, revise, and refine their work, often based on prompts or themes.
+* __Sharing & Feedback__ – Participants present their writing and receive constructive critiques.
+* __Discussion & Reflection__ – Writers and reviewers analyze strengths, areas for improvement, and possible revisions.
+* __Revision & Growth__ – Writers refine their work based on feedback, learning from the process.
+
+Goals of a Writer’s Workshop
+
+* Improve writing skills through continuous practice and critique.
+* Encourage self-reflection and revision as part of the creative process.
+* Build a supportive writing community that values diverse voices and styles.
+
+Workshops can focus on different types of writing, including fiction, poetry, technical writing, or academic essays.
+
 ## How do you define good criteria for deciding whether to grant approval?
 
 To define good criteria for decision-making or signing approvals, you should focus on clearly structured, relevant, and measurable factors that align with the objectives of the decision. Using tools like the Pugh matrix is helpful because it provides a systematic way to evaluate options against chosen criteria.

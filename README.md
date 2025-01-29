@@ -19,6 +19,8 @@ Possible Features for the Repository:
 * Reference Tools and Tipps of architectural and technical debt decisions.
 * Discuss the role of RFCs and why ADR's so important.
 
+![](./images/DeciCollab-Logo.png)
+
 ## Document Architecture Decisions Pattern
 
 * __Documentation of Decisions__:
