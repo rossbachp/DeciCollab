@@ -118,7 +118,7 @@ class A3,A6,A7 state;
 
 <!-- column: 0 -->
 
-* __Title__ - `ADR-0001-<name>` or `ADR-20250123-<name>`
+* __Title__ - `ADR-0001_-<name>` or `ADR-20250123_<name>`
 * __Metadata__ - Tags, References, Date, changelog, Meetings, Committers
 * __Status__ - Proposed, Accepted, Rejected, Deprecated, Superseded, Implemented, Revisited
 * __Context__ - Why
@@ -130,7 +130,6 @@ class A3,A6,A7 state;
 <!-- column: 1 -->
 
 ```markdown
-
 # ADR-0001: Docuument with Architecture Decision Records
 
 ## Metadata
@@ -158,8 +157,7 @@ We will use Architecture Decision Records, as described by Michael Nygard in thi
 ## Consequences
 
 See Michael Nygard's article, linked above.
-
-## Notes
+```
 
 * [Original ADR Example - npryce]
 (https://github.com/npryce/adr-tools/blob/master/doc/adr/0001-record-architecture-decisions.md)
