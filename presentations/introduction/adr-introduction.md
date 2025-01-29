@@ -232,7 +232,7 @@ class A6,A7,A10,A11 state;
 
 ---
 
-Key Components of a Writer’s Workshop
+### Key Components of a Writer’s Workshop
 
 * __Writing Time__
   * Writers draft, revise, and refine their work, often based on prompts or themes.
@@ -243,7 +243,9 @@ Key Components of a Writer’s Workshop
 * __Revision & Growth__
   * Writers refine their work based on feedback, learning from the process.
 
-Goals of a Writer’s Workshop
+---
+
+### Goals of a Writer’s Workshop
 
 * Improve writing skills through continuous practice and critique.
 * Encourage self-reflection and revision as part of the creative process.
@@ -309,7 +311,7 @@ Goals of a Writer’s Workshop
 
 <!-- column: 0 -->
 
-Rules:
+### Rules:
 
 - The ADR must be discussed publicly and fully documented.
 - A minimum of three committers must sign the decision record (ADR).
@@ -320,7 +322,7 @@ Rules:
 
 <!-- column: 1 -->
 
-Voting:
+### Voting:
 
 - **+1**:
   - Indicates **YES**, accepting the decision and its documented consequences.
