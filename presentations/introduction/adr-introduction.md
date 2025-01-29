@@ -8,7 +8,7 @@ theme:
     footer:
       style: template
       left: "|-o-| The humbled paint signer <peter.rossbach@bee42.com>"
-      center: "© 2025 bee42 solutions gmbh"
+      center: "DeciCollab - © 2025 bee42 solutions gmbh"
       right: "{current_slide} / {total_slides}"
 ---
 
