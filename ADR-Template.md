@@ -64,6 +64,8 @@ flowchart TD
     Deprecated  -- [Canceled] --> End
     Revisited   --> End
     Accepted    -- [Not needed anymore] --> End
+    Accepted     -- Coding --> Implemented
+    Implemented -- Canceled --> End
     Superseded  -- [Replaced by] --> End
     Rejected    --> End
 
@@ -71,7 +73,7 @@ flowchart TD
     End@{ shape: f-circ, label: "End" }
 
 classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
-class Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,Superseded state;
+class Drafted,Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,Superseded,Implemented state;
 ```
 __Picture 5__: ADR state flow
 
