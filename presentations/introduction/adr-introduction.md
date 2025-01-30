@@ -1,6 +1,6 @@
 ---
 title: Understanding ADRs – Documenting Decisions for Lasting Impact
-sub_title: bee42 solutions gmbh proudly presens
+sub_title: bee42 solutions gmbh proudly presents
 author:  The humbled paint signer <peter.rossbach@bee42.com>
 theme:
   name: dark
@@ -130,11 +130,11 @@ class A3,A6,A7 state;
 <!-- column: 1 -->
 
 ```markdown
-# ADR-0001: Docuument with Architecture Decision Records
+# ADR-0001: Document with Architecture Decision Records
 
 ## Metadata
 
-Title:  ADR-0001_Docuument-With-Architecture-Decision-Records
+Title:  ADR-0001_Document-With-Architecture-Decision-Records
 Date:   20250123
 Author: [Peter Rossbach](mailto://peter.rossbach@bee42.com)
 Keywords: ADR
@@ -218,7 +218,7 @@ class A6,A7,A10,A11 state;
   * Feedback
   * Out of the Box ideas
 * Decision Meeting
-  * Decside
+  * Decide
   * Sync/async - Voting with arguments
   * Superseded a ADR
   * Review Governance Model and Practice
@@ -264,7 +264,7 @@ class A6,A7,A10,A11 state;
 * __Focus on the Writing, Not the Writer__
   * Critique the work, not the person. Keep feedback professional and supportive.
 * __Be Specific in Feedback__
-  * Use examples to highlight strengths and areas for improvement. Avoid vague statements like “I didn’t like it” without explanation.
+  * Use examples to highlight strengths and areas for improvement. Avoid vague statements like “I didn't like it” without explanation.
 * __Balance Praise and Critique__
   * Acknowledge what works well along with suggestions for improvement.
 * __Encourage Growth, Not Perfection__
@@ -316,7 +316,7 @@ class A6,A7,A10,A11 state;
 - The ADR must be discussed publicly and fully documented.
 - A minimum of three committers must sign the decision record (ADR).
 - The voting date must be announced in a public channel in advance.
-- A minimun of three positive votes must be exists.
+- A minimum of three positive votes must be exists.
 - For an approval, there must be more "+1" votes than "-1" votes.
 - Voting periods should generally run for at least 72 hours to provide an opportunity for all concerned persons to participate, regardless of their geographic location.
 
@@ -378,7 +378,7 @@ Guide students on adopting Kubernetes for container orchestration.
 * [ADR-Tools Nat Pryce - markdown](https://github.com/npryce/adr-tools)
 * [E-ADR](https://github.com/adr/e-adr)
 * [MADR Template- markdown](https://adr.github.io/madr/)
-* [Record-Tools - acsiidoc](https://github.com/unexist/record-tools)
+* [Record-Tools - asciidoc](https://github.com/unexist/record-tools)
 
 <!-- end_slide -->
 
