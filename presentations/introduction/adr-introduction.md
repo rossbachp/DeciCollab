@@ -12,7 +12,7 @@ theme:
       right: "{current_slide} / {total_slides}"
 ---
 
-**Understanding ADRs – Documenting Decisions for Lasting Impact**
+## **Understanding ADRs – Documenting Decisions for Lasting Impact**
 
 ---
 
@@ -42,6 +42,8 @@ Peter Rossbach is the founder of bee42, a system architect, DevOps advocate, Apa
 
 ## ADR - Workshop Agenda
 
+---
+
 ```mermaid +render
 flowchart TD
 
@@ -65,7 +67,7 @@ class A4,A6,A8 state;
 
 ---
 
-```mermaid +render
+```mermaid +render +width:50%
 flowchart TD
 
 A(Tech Radar) --> B(Community of Practice Architecture)
@@ -113,6 +115,8 @@ class A3,A6,A7 state;
 <!-- end_slide -->
 
 ## ADR - Template
+
+---
 
 <!-- column_layout: [1, 1] -->
 
@@ -166,6 +170,8 @@ See Michael Nygard's article, linked above.
 
 ## ADR - Status
 
+---
+
 * __Drafted__:
   * The decision is prepared for proposing.
 * __Proposed__:
@@ -187,7 +193,9 @@ See Michael Nygard's article, linked above.
 
 ## ADR - Status Flowchart
 
-```mermaid +render
+---
+
+```mermaid +render +width:100%
 flowchart TD
     Start --> Drafted
     Drafted --> Proposed
@@ -215,6 +223,8 @@ class Drafted,Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,
 <!-- end_slide -->
 
 ## ADR - Meetings
+
+---
 
 * Owner and Committer Meeting
   * Requirements and Context
@@ -313,6 +323,8 @@ class Drafted,Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,
 <!-- end_slide -->
 
 ## ADR - Voting Guidelines
+
+---
 
 <!-- column_layout: [1, 1] -->
 
