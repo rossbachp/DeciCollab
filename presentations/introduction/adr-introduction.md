@@ -180,6 +180,8 @@ See Michael Nygard's article, linked above.
   * The decision has been replaced by another ADR that reflects a more up-to-date solution.
 * __Implemented__:
   * The decision has been fully integrated into the system and is currently in use.
+* __Revisited__:
+  * The decision is being reviewed to assess its relevance or effectiveness, usually triggered by new information or changing conditions.
 
 <!-- end_slide -->
 
@@ -187,22 +189,25 @@ See Michael Nygard's article, linked above.
 
 ```mermaid +render
 flowchart TD
+    Start --> Drafted
+    Drafted --> Proposed
+    Proposed    -- [Review] --> Accepted
+    Proposed    -- [Review] --> Rejected
+    Accepted    -- [Changing] --> Revisited
+    Revisited   -- [Review] --> Accepted
+    Accepted    -- [Outdated] --> Deprecated
+    Accepted    -- [Replaced by new ADR] --> Superseded
+    Deprecated  -- [Canceled] --> End
+    Revisited   --> End
+    Accepted    -- [Not needed anymore] --> End
+    Superseded  -- [Replaced by] --> End
+    Rejected    --> End
 
-A1@{ shape: f-circ, label: "Start" } --> A3(ADR is in<br/>__Drafted__<br/>state)
-A3 -->A4(ADR is in<br/>__Proposed__<br/>state)
-A4 -->A6(ADR is in<br/>__Accepted__<br/>state)
-A4 --> A7(ADR is in <br/>__Rejected__<br/>state)
-A6 -->A10(Old ADR is in<br/>__Superseded__<br/>state)
-A6 --> A11(ADR is in <br/>__Implemented__<br/>state)
-A6 --> A12(ADR is in <br/>__Deprecated__<br/>state)
-A8@{ shape: f-circ, label: "END" }
-A12 --> A8
-A11 --> A8
-A10 --> A8
-A7 --> A8
+    Start@{ shape: f-circ, label: "Start" }
+    End@{ shape: f-circ, label: "End" }
 
 classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
-class A6,A7,A10,A11 state;
+class Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,Superseded state;
 ```
 
 <!-- end_slide -->

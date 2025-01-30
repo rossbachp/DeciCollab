@@ -32,6 +32,8 @@ Effective ADR ownership is crucial for fostering accountability and keeping arch
 
 The status of an Architecture Decision Record (ADR) is typically represented as an enumeration (enum) to indicate the current state of the decision within the project lifecycle. Common statuses include:
 
+* __Drafted__:
+  * The decision is prepared for proposing.
 * __Proposed__:
   * The decision is under consideration and open for discussion. No final agreement has been reached.
 * __Accepted__:
@@ -50,8 +52,9 @@ The status of an Architecture Decision Record (ADR) is typically represented as 
 Each status helps track the evolution of architectural decisions and ensures that all stakeholders understand their current standing and applicability in the project.
 
 ```mermaid
-flowchart LR
-    Start --> Proposed
+flowchart TD
+    Start --> Drafted
+    Drafted --> Proposed
     Proposed    -- [Review] --> Accepted
     Proposed    -- [Review] --> Rejected
     Accepted    -- [Changing] --> Revisited

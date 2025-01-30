@@ -21,6 +21,8 @@ Additionally, each ADR must include:
   * Indicating the decision's current state (e.g., proposed, approved, superseded).
 * __Changelog__:
   * A record of changes with the date and the person responsible for each update.
+* __Alternatives__:
+  * Descibe other options that you discussed.
 
 This structure ensures clarity, transparency, and accountability in decision-making.
 

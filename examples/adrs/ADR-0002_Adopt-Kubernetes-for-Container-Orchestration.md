@@ -68,6 +68,8 @@ Kubernetes clusters can introduce overhead costs in terms of infrastructure usag
   * Easier integration with AWS but less flexibility in multi-cloud/hybrid-cloud deployments.
 * Nomad:
   * Lightweight and simpler than Kubernetes but lacks a comparably extensive ecosystem.
+* Basecamp Kamal:
+  * Kamal basically is Capistrano for Containers, without the  need to carefully prepare servers in advance.
 
 ## Follow-Up Actions
 
