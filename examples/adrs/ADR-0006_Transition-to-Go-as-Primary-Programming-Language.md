@@ -86,7 +86,16 @@ If you're considering Golang as the main programming language for implementing C
   * Are there robust third-party libraries available for common development needs (authentication, database access, logging)?
   * Is the tooling (debuggers, linters, formatters) mature enough for long-term maintainability?
   * How difficult will it be to onboard new developers to a Golang-based codebase?
-* Community and Long-term Viability
+* Community and Long-Term Viability
   * Is Golang actively maintained and evolving?
+    * **Peter Rossbach**
+      * Yes, Go is actively maintained and continuously improved by the Go team at Google and the open-source community.
   * Are there large-scale projects or companies successfully using it?
-  * What are the risks of adopting a less mainstream language for critical infrastructure?
+    * **Peter Rossbach**
+      * Golang is widely adopted and promoted by Google and the Cloud Native Computing Foundation (CNCF).
+      * Major projects like Kubernetes, Docker, and many cloud-native platforms rely on Go for their core components.
+  * What are the risks of adopting a mainstream language for critical infrastructure?
+    * **Peter Rossbach**
+      * Requires hiring and retaining skilled Go developers to maintain and scale projects effectively.
+      * Frequent updates to external dependencies may introduce maintenance overhead.
+      * Publicly available libraries can be analyzed for vulnerabilities, increasing the need for proactive security measures.
