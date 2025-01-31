@@ -2,9 +2,12 @@
 
 ## Metadata
 
-Title:  ADR-0003_Use-GitOps-for-Kubernetes-Deployments
-Date:   20250128
-Author: [Peter Rossbach](mailto://peter.rossbach@bee42.com)
+Title:    ADR-0003_Use-GitOps-for-Kubernetes-Deployments
+Date:     20250128
+Owner:    [Peter Rossbach](mailto://peter.rossbach@bee42.com)
+Keywords: Kubernetes, Cloud Native, Container, GitOps, CI/CD
+Tags:     type=automation
+Decision Makers: [Insert name here]
 
 ## Status
 

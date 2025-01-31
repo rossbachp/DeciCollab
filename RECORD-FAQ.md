@@ -88,7 +88,7 @@ There are multiple versions and variants of ADR templates available.
 * [ADR-Tools - asciidoc](https://github.com/unexist/adr-tools)
 * [ADR-Tools - markdown](https://github.com/adr/adr-tools)
 * [ADR-Tools Nat Pryce - markdown](https://github.com/npryce/adr-tools)
-* [e-adr](https://github.com/adr/e-adr)
+* [E-ADR](https://github.com/adr/e-adr)
 * [MADR Template- markdown](https://adr.github.io/madr/)
 * [Record-Tools - acsiidoc](https://github.com/unexist/record-tools)
 
@@ -152,13 +152,13 @@ To define good criteria for decision-making or signing approvals, you should foc
 
 Good criteria are:
 
-* Relevant: Linked directly to the goals and context of the decision.
-* Measurable: Quantifiable or with clear qualitative standards.
-* Comprehensive: Cover all significant aspects, like cost, quality, scalability, risk, time, etc.
-* Non-redundant: Avoid overlapping or unnecessary complexity.
+* __Relevant__: Linked directly to the goals and context of the decision.
+* __Measurable__: Quantifiable or with clear qualitative standards.
+* __Comprehensive__: Cover all significant aspects, like cost, quality, scalability, risk, time, etc.
+* __Non-redundant__: Avoid overlapping or unnecessary complexity.
 Examples:
-* For product selection: Functionality, cost, vendor support, compatibility.
-* For budget approvals: ROI, resource allocation, alignment with business strategy, risk mitigation.
+* __For product selection__: Functionality, cost, vendor support, compatibility.
+* __For budget approvals__: ROI, resource allocation, alignment with business strategy, risk mitigation.
 
 ### Weight the Criteria
 
@@ -219,3 +219,20 @@ Architectural Decision Records (ADRs) have evolved as a practical method to docu
   * [Blog Posts Olaf Zimmermann](https://ozimmer.ch/tags/#architectural-decisions)
 
 ADRs continue to be a cornerstone for structured decision-making in software architecture.
+
+## What are the Chatham House Rule?
+
+The Chatham House Rule is a guideline for discussions to encourage open dialogue while protecting confidentiality. It states that participants are free to use the information received but cannot reveal the identity or affiliation of speakers or other participants. This rule is commonly used in meetings, conferences, and discussions to promote frank and open exchanges without attribution.
+
+* [chatham-house-rule](https://www.chathamhouse.org/about-us/chatham-house-rule)
+
+## What are the Vegas Rules?
+
+The term Vegas Rules comes from the saying "What happens in Vegas, stays in Vegas." When used in a meeting, the rule says that whatever is said in the meeting must be kept private to the people who were in the room and should never be repeated to others.
+
+## Exists some rules of productive meetings?
+
+If you want your team to be effective, you need meeting ground rules — and you need agreement about how to use them. Many teams that have ground rules don’t regularly use them. But having rules in place that you consistently enforce can significantly improve how your team solves problems and makes decisions.
+
+* [How to Run a Meeting](https://hbr.org/1976/03/how-to-run-a-meeting)
+* [8 Ground Rules for Great Meetings](https://hbr.org/2016/06/8-ground-rules-for-great-meetings)

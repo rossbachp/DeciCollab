@@ -226,6 +226,12 @@ class Drafted,Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,
 
 ---
 
+* Respect your rules to use the information of a meeting
+  * Chatham House Rule
+  * Las vegas Rule
+
+---
+
 * Owner and Committer Meeting
   * Requirements and Context
   * Discus the ADR and options

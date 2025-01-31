@@ -2,11 +2,12 @@
 
 ## Metadata
 
-Title:  ADR-0002_Adopt-Kubernetes-for-Container-Orchestration
-Date:   20250128
-Author: [Peter Rossbach](mailto://peter.rossbach@bee42.com)
+Title:    ADR-0002_Adopt-Kubernetes-for-Container-Orchestration
+Date:     20250128
+Owner:    [Peter Rossbach](mailto://peter.rossbach@bee42.com)
 Keywords: Kubernetes, Cloud Native, Container
-Tags: type=architecture
+Tags:     type=architecture
+Decision Makers: [Insert name here]
 
 ## Status
 
