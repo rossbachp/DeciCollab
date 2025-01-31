@@ -2,7 +2,7 @@
 
 ## Metadata
 
-Title:  ADR-0005_Adopt Logging Framework
+Title:  ADR-0005_Adopt-Logging-Framework
 Date:   20250131
 Author: [Peter Rossbach](mailto://peter.rossbach@bee42.com)
 Keywords: Logging, Java
