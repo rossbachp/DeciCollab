@@ -364,9 +364,13 @@ class Drafted,Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,
 
 ### Tutor
 
-Guide students on adopting Kubernetes for container orchestration.
+* Guide students an introduction to a concrete ADR proposal.
+* Explain the writes workshop rules
+* Start a students writers workshop session
 
 ### Students
+
+Let the studdnts choose a context to write an ADR draft:
 
 * Understand logging best practices in a containerized environment.
 * Decide whether to use Golang for development.
@@ -404,6 +408,11 @@ Guide students on adopting Kubernetes for container orchestration.
 * [E-ADR](https://github.com/adr/e-adr)
 * [MADR Template- markdown](https://adr.github.io/madr/)
 * [Record-Tools - asciidoc](https://github.com/unexist/record-tools)
+
+### Other Decision Records Formats
+
+* [Technical Dept Records](https://github.com/ms1963/TechnicalDebtRecords)
+* [Request for comments](https://en.wikipedia.org/wiki/Request_for_Comments)
 
 <!-- end_slide -->
 
