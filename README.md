@@ -1,5 +1,7 @@
 # System Architecture Decision Collaboration
 
+![](./images/DeciCollab-Logo.png)
+
 DeciCollab is a short and impactful name that emphasizes both the decision-making process and the collaborative nature of the project. Here's how you could further position DeciCollab:
 
 * __Transparent System Architecture documentation__: 
@@ -18,8 +20,6 @@ Possible Features for the Repository:
 * Define a Innersource Pattern for ADRs/TDRs:
 * Reference Tools and Tipps of architectural and technical debt decisions.
 * Discuss the role of RFCs and why ADR's so important.
-
-![](./images/DeciCollab-Logo.png)
 
 ## Document Architecture Decisions Pattern
 
