@@ -91,6 +91,30 @@ ADRs ensure traceability, transparency, and alignment among stakeholders, helpin
 * [arc42 quality model](https://quality.arc42.org/articles/arc42-quality-model)
 * [ADR cards42 template](https://cards42.org/#adr)
 
+### Documentation as Code
+
+Documenting Architecture as Code is an approach that treats software architecture documentation like source code—version-controlled, automated, and integrated into development workflows.
+
+Key Principles:
+
+* __Automation & Version Control__ – Store architecture docs in repositories, enabling collaboration and history tracking.
+* __Single Source of Truth__ – Keep documentation up to date with the system by embedding it in the development process.
+* __Executable & Testable__ – Use tools like C4 Model, Structurizr, or AsciiDoc to generate diagrams and ensure consistency.
+* __Integration with CI/CD__ – Automate documentation updates as part of the deployment pipeline.
+
+This approach ensures that architecture documentation is always relevant, consistent, and evolves with the system, reducing outdated or siloed information.
+
+* [Documentation as Code](https://www.workingsoftware.dev/documentation-as-code/)
+* [The Ultimate Guide To Software Architecture Documentation](https://www.workingsoftware.dev/software-architecture-documentation-the-ultimate-guide/)
+* [Arc42 templates](https://arc42.org/download)
+
+### Architecture Canvas
+
+The Software Architecture Canvas is a structured framework for designing and documenting software architectures. It provides a holistic view by covering key aspects such as business goals, quality attributes, constraints, and technical decisions.
+
+* [Architecture Communication Canvas](https://canvas.arc42.org/architecture-communication-canvas)
+* [Architecture Canvas](https://www.workingsoftware.dev/software-architecture-canvas/)
+
 ### Open Decision Framework
 
 The [Open Decision Framework](https://github.com/open-organization/open-decision-framework) is a collaborative methodology used to make transparent, inclusive, and well-informed decisions. It emphasizes open communication, diverse stakeholder engagement, and iterative feedback throughout the decision-making process.
@@ -159,6 +183,7 @@ Examples:
 * [Architectural Decisions — The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html)
 * [ADR Hub](https://adr.github.io/)
 * [ADRs—Explicit Decisions For Better And Faster Software](https://qeunit.com/blog/adrs-explicit-decisions-for-better-and-faster-software/)
+* [Architecture Principles: An approach to effective decision making in software architecture](https://www.workingsoftware.dev/architecture-principles/)
 * [Architecting Success: A Comprehensive Guide to Robust Architecture Decision Records](https://medium.com/@patrickkoss/architecting-success-a-comprehensive-guide-to-robust-architecture-decision-records-4c18e6888ba1)#
 * [AWS - Architectural Decision Process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html)
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
@@ -177,13 +202,14 @@ Examples:
 * [Sustainable Architectural Design Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions/)
 * [Technical Debt Records Idea](https://www.heise.de/blog/Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
 * [The Markdown ADR (MADR) Template Explained and Distilled](https://ozimmer.ch/practices/2022/11/22/MADRTemplatePrimer.html)
+* [The Software Architecture Canvas: An Efficient and Collaborative Way to Define Your Software Architecture Playground](https://www.workingsoftware.dev/software-architecture-canvas/)
 * [Using Architecture Decision Records in Open Source Projects—An MSR Study on GitHub](https://ieeexplore.ieee.org/document/10155430)
 * [When Should I Write an Architecture Decision Record](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 * [Why Every Development Team Needs Architecture Decision Records](https://medium.com/@tyschenk20/why-every-development-team-needs-architecture-decision-records-ec78cde47e8d)
 * [Why you should be using architecture decision records to document your project](https://www.redhat.com/en/blog/architecture-decision-records)
 * [Writes Workshop](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
 * [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177)
+* [27 Fundamental Techniques for Software Architects](https://www.workingsoftware.dev/fundamental-techniques-for-software-architects/)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
-
 
 `|-o-|` - The Humbled Sign Painter - <a href="mailto://peter.rossbach@bee42.com">Peter</a>
