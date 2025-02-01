@@ -171,10 +171,12 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 * [Joel Parker Templates to ADR](https://github.com/joelparkerhenderson/architecture-decision-record)
 * [RedHat: Why you should use ADRs](https://www.redhat.com/en/blog/architecture-decision-records)
 * [Using Architecture Decision Records in Open Source Projects—An MSR Study on GitHub](https://ieeexplore.ieee.org/document/10155430)
+* [SAP- Cross Product Architecture](https://community.sap.com/t5/technology-blogs-by-sap/cross-product-architecture-embracing-conway-s-law-for-better-software/ba-p/13648600)
+* [Software Architecture Documentation Starter with arc42 and C4 Model](https://github.com/bitsmuggler/arc42-c4-software-architecture-documentation-example)
 
 ## Status
 
-??
+Drafted
 
 ## Author(s)
 

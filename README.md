@@ -167,10 +167,13 @@ Examples:
 * [How to write effective documentation for your open source project](https://opensource.com/article/20/3/documentation?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)
 * [How to Write Requests for Comments (RFCs) and Architecture Decision Reviews (ADRs)](https://jc1175.medium.com/how-to-write-requests-for-comments-rfcs-and-architecture-decision-reviews-adrs-aa0992e3149f)
 * [Improve your IT landscape with Architecture Decision Records (ADR)](https://medium.com/geekculture/improve-your-it-landscape-with-architecture-decision-records-adr-accf6d1b4e12)
+* [Inverse Conway Maneuver](https://martinfowler.com/bliki/ConwaysLaw.html)
 * [ISO/IEC 25010 - Quality of Software](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 * [Learnings from using ADR in a real project](https://blog.unexist.dev/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
 * [Open Decision Framework](https://opensource.com/open-organization/resources/open-decision-framework?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)
 * [Requests for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
+* [SAP- Cross Product Architecture](https://community.sap.com/t5/technology-blogs-by-sap/cross-product-architecture-embracing-conway-s-law-for-better-software/ba-p/13648600)
+* [Software Architecture Documentation Starter with arc42 and C4 Model](https://github.com/bitsmuggler/arc42-c4-software-architecture-documentation-example)
 * [Sustainable Architectural Design Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions/)
 * [Technical Debt Records Idea](https://www.heise.de/blog/Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
 * [The Markdown ADR (MADR) Template Explained and Distilled](https://ozimmer.ch/practices/2022/11/22/MADRTemplatePrimer.html)
@@ -181,5 +184,6 @@ Examples:
 * [Writes Workshop](https://hillside.net/conferences/plop/235-how-to-hold-a-writers-workshop)
 * [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
+
 
 `|-o-|` - The Humbled Sign Painter - <a href="mailto://peter.rossbach@bee42.com">Peter</a>
