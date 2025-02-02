@@ -86,6 +86,11 @@ If you're considering Golang as the main programming language for implementing C
   * Are there robust third-party libraries available for common development needs (authentication, database access, logging)?
   * Is the tooling (debuggers, linters, formatters) mature enough for long-term maintainability?
   * How difficult will it be to onboard new developers to a Golang-based codebase?
+    * **Peter Rossbach**
+      * Onboarding new developers to a Golang-based codebase is generally straightforward due to Go’s simplicity, clear syntax, and strong tooling. However, challenges may arise for those unfamiliar with Go’s concurrency model, error handling, and opinionated design choices. Providing structured onboarding, mentorship, and best practice guides can help accelerate the learning process.
+  * How difficult it is to add observability frameworks, like opentelemetry?
+    * **Peter Rossbach**
+      * We all hope that the newly announced  [Opentelemetry Go Instrumentation SIGs](https://github.com/open-telemetry/opentelemetry-go-instrumentation/) will provide valuable improvements! Currently, instrumentation requires manual coding, and adding telemetry to external code remains a challenging task.
 * Community and Long-Term Viability
   * Is Golang actively maintained and evolving?
     * **Peter Rossbach**
