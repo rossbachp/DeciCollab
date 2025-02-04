@@ -40,6 +40,44 @@ Peter Rossbach is the founder of bee42, a system architect, DevOps advocate, Apa
 
 <!-- end_slide -->
 
+## Architecture Decision Records (ADRs) – Key Points
+
+---
+
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+
+### What Are ADRs?
+
+* Lightweight documents that capture architectural decisions.
+* Record the context, reasoning, and consequences of technical choices.
+
+### Why Use ADRs?
+
+* Ensure transparency and accountability.
+* Provide historical context for future teams.
+* Prevent decision fatigue by documenting past choices.
+* Improve collaboration across teams.
+
+<!-- column: 1 -->
+
+### Key Components of an ADR
+
+* __Title__ – Descriptive name of the decision.
+* __Context__ – Background information and problem statement.
+* __Decision__ – The choice made and its rationale.
+* __Consequences__ – Impacts and trade-offs of the decision.
+
+### Best Practices for ADRs
+
+* Keep them concise and clear.
+* Store them in a version-controlled repository.
+* Update or supersede ADRs as decisions evolve.
+* Encourage team-wide adoption for consistency.
+
+<!-- end_slide -->
+
 ## ADR - Workshop Agenda
 
 ---
@@ -162,34 +200,11 @@ We will use Architecture Decision Records, as described by Michael Nygard in thi
 
 See Michael Nygard's article, linked above.
 ```
-
 * [Original ADR Example - npryce]
 (https://github.com/npryce/adr-tools/blob/master/doc/adr/0001-record-architecture-decisions.md)
 
 <!-- end_slide -->
 
-## ADR - Status
-
----
-
-* __Drafted__:
-  * The decision is prepared for proposing.
-* __Proposed__:
-  * The decision is under consideration and open for discussion. No final agreement has been reached.
-* __Accepted__:
-  * The decision has been reviewed and agreed upon by stakeholders. It is now part of the system architecture.
-* __Rejected__:
-  * The decision has been considered but was ultimately not approved or implemented.
-* __Deprecated__:
-  * The decision is no longer valid due to changes in requirements, technologies, or system priorities. It has been replaced or is planned for removal.
-* __Superseded__:
-  * The decision has been replaced by another ADR that reflects a more up-to-date solution.
-* __Implemented__:
-  * The decision has been fully integrated into the system and is currently in use.
-* __Revisited__:
-  * The decision is being reviewed to assess its relevance or effectiveness, usually triggered by new information or changing conditions.
-
-<!-- end_slide -->
 
 ## ADR - Status Flowchart
 
@@ -222,6 +237,29 @@ class Drafted,Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,
 
 <!-- end_slide -->
 
+## ADR - Status
+
+---
+
+* __Drafted__:
+  * The decision is prepared for proposing.
+* __Proposed__:
+  * The decision is under consideration and open for discussion. No final agreement has been reached.
+* __Accepted__:
+  * The decision has been reviewed and agreed upon by stakeholders. It is now part of the system architecture.
+* __Rejected__:
+  * The decision has been considered but was ultimately not approved or implemented.
+* __Deprecated__:
+  * The decision is no longer valid due to changes in requirements, technologies, or system priorities. It has been replaced or is planned for removal.
+* __Superseded__:
+  * The decision has been replaced by another ADR that reflects a more up-to-date solution.
+* __Implemented__:
+  * The decision has been fully integrated into the system and is currently in use.
+* __Revisited__:
+  * The decision is being reviewed to assess its relevance or effectiveness, usually triggered by new information or changing conditions.
+
+<!-- end_slide -->
+
 ## ADR - Meetings
 
 ---
@@ -239,15 +277,15 @@ class Drafted,Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,
   * Explain the status of the ADR
   * Community ask questions
   * Feedback
-  * Out of the Box ideas
+  * Find Out of the Box ideas or alternatives
 * Decision Meeting
   * Decide
   * Sync/async - Voting with arguments
   * Superseded a ADR
   * Review Governance Model and Practice
 * Pair Writing Sessions
-  * Contribute to the document
-  * Implementation
+  * Contribute to the decision document
+  * Work on implementation
 
 <!-- end_slide -->
 
@@ -332,28 +370,27 @@ class Drafted,Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,
 
 ---
 
-<!-- column_layout: [1, 1] -->
-
-<!-- column: 0 -->
-
 ### Rules:
 
-- The ADR must be discussed publicly and fully documented.
-- A minimum of three committers must sign the decision record (ADR).
-- The voting date must be announced in a public channel in advance.
-- A minimum of three positive votes must be exists.
-- For an approval, there must be more "+1" votes than "-1" votes.
-- Voting periods should generally run for at least 72 hours to provide an opportunity for all concerned persons to participate, regardless of their geographic location.
+* The ADR must be discussed publicly and fully documented.
+* A minimum of three committers must sign the decision record (ADR).
+* The voting date must be announced in a public channel in advance.
+* A minimum of three positive votes must be exists.
+* For an approval, there must be more "+1" votes than "-1" votes.
+* Onwer documented and publish the decision
 
-<!-- column: 1 -->
+### Hints:
+
+* Anonymous voting can help minimize hierarchical influence and encourage unbiased decision-making.
+* Voting periods should generally run for at least 72 hours to provide an opportunity for all concerned persons to participate, regardless of their geographic location.
 
 ### Voting:
 
-- **+1**:
+* **+1**:
   - Indicates **YES**, accepting the decision and its documented consequences.
-- **0**:
+* **0**:
   - Indicates a neutral stance **(YES/NO)**.
-- **-1**:
+* **-1**:
   - Indicates **NO** and requires a rationale, which must be clearly documented.
 
 <!-- end_slide -->
@@ -370,7 +407,7 @@ class Drafted,Proposed,Accepted,Rejected,Revisited,Deprecated,Deprecated,Decied,
 
 ### Students
 
-Let the studdnts choose a context to write an ADR draft:
+Let the students choose a context to write an ADR draft:
 
 * Understand logging best practices in a containerized environment.
 * Decide whether to use Golang for development.
@@ -392,12 +429,12 @@ Let the studdnts choose a context to write an ADR draft:
 
 ### Why Use ADR Tools?
 
-* Consistency – Standardizes the format of Architecture Decision Records (ADRs).
-* Traceability – Tracks decisions over time with clear historical context.
-* Collaboration – Encourages team discussions and documentation.
-* Version Control – Stores ADRs in Git for easy auditing and rollbacks.
-* Automation – Simplifies the creation and management of ADRs.
-* Clarity – Makes architectural choices transparent for future stakeholders.
+* __Consistency__ – Standardizes the format of Architecture Decision Records (ADRs).
+* __Traceability__ – Tracks decisions over time with clear historical context.
+* __Collaboration__ – Encourages team discussions and documentation.
+* __Version Control__ – Stores ADRs in Git for easy auditing and rollbacks.
+* __Automation__ – Simplifies the creation and management of ADRs.
+* __Clarity__ – Makes architectural choices transparent for future stakeholders.
 
 ### Tools
 
@@ -423,41 +460,40 @@ Let the studdnts choose a context to write an ADR draft:
 
 <!-- column: 0 -->
 
-- **Document Decisions**
-  - Use a standard template
-  - All people must accept the governance rules of your ADR Process
+* **Document Decisions**
+  * Use a standard template
+  * All people must accept the governance rules of your ADR Process
 
-- **Collobrations**
-  - Discuss your context
-  - Leave out your box and respect feedback
-  - Check the alternative options
+* **Collobrations**
+  * Discuss your context
+  * Leave out your box and respect feedback
+  * Check the alternative options
+  * Learn to provide constructive and encouraging feedback
 
-- **Before Decide**
-  - Implement a short POC
-  - Describe the consequences, if something goes wrong!
-  - Be motivated to accept the resulting challenges!
+* **Before Decide**
+  * Implement a short POC
+  * Describe the consequences, if something goes wrong!
+  * Be motivated to accept the resulting challenges!
 
-- **All people respect the process**
-  - Nobody can overrule the decisions
-  - Everyone is welcome to contribute
-  - Don't use manipulations to decide something!
-  - Don't block a decision without accepted arguments
+* **All people respect the process**
+  * Nobody can overrule the decisions
+  * Everyone is welcome to contribute
+  * Don't use manipulations to decide something!
+  * Don't block a decision without accepted arguments
 
 <!-- column: 1 -->
 
 Many thanks for listing,
 
 * `|-o-|` The humbled sign painter - Peter Rossbach
-* Christoph Kappel
-
 
 ![](./images/Container-Logo-Blue.png)
 
 Powerby:
 
-- [presenterm](https://github.com/mfontanini/presenterm)
-- [DeciCollab](https://github.com/rossbachp/DeciCollab)
-- © 2025 bee42 solutions gmbh
+* [presenterm](https://github.com/mfontanini/presenterm)
+* [DeciCollab](https://github.com/rossbachp/DeciCollab)
+* © 2025 bee42 solutions gmbh
 
 ---
 ![](./images/bee42.png)
