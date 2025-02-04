@@ -75,6 +75,8 @@ Peter Rossbach is the founder of bee42, a system architect, DevOps advocate, Apa
 * Store them in a version-controlled repository.
 * Update or supersede ADRs as decisions evolve.
 * Encourage team-wide adoption for consistency.
+* Start implementing a proof of concept (PoC) for the proposed solution.
+* Decisions should be made by those with the deepest expertise on the topic.
 
 <!-- end_slide -->
 
