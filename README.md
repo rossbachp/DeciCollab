@@ -143,7 +143,9 @@ A4 -- No --> A5(Write an ADR!)
 A3 -- No --> A6{Do you have a solution?}
 A6 -- Yes -->A7{Is it a big change?}
 A7 -- Yes --> A8(Write a RFC!)
-A5 --> A11(Document Technical Debt)
+A5 --> A12{More significant effects?}
+A12 -- Yes --> A11(Write an TDR)
+A12 -- No --> A10
 A8 --> A9{Did the RFC conclude with a solution?}
 A9 -- Yes --> A5
 A7 -- No --> A5
