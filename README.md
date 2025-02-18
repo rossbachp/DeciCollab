@@ -144,7 +144,7 @@ A3 -- No --> A6{Do you have a solution?}
 A6 -- Yes -->A7{Is it a big change?}
 A7 -- Yes --> A8(Write a RFC!)
 A5 --> A12{More significant effects?}
-A12 -- Yes --> A11(Write an TDR)
+A12 -- Yes --> A11(Write an TDR!)
 A12 -- No --> A10
 A8 --> A9{Did the RFC conclude with a solution?}
 A9 -- Yes --> A5
@@ -154,9 +154,9 @@ A11 --> A10@{ shape: f-circ, label: "END" }
 classDef state fill:#f96,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 class A11,A5,A8 state;
 ```
-__Picture 4__: Josef Blake architecture decision record diagram
+__Picture 4__: Architecture decision record flow diagram
 
-* [Published by Josef Blake](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
+* [Initially published by Josef Blake](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
 
 ### Technical Debt Records
 
