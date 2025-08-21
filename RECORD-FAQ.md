@@ -217,8 +217,12 @@ Architectural Decision Records (ADRs) have evolved as a practical method to docu
 * 2024: [Timing Architectural Decisions](https://ozimmer.ch/assets/presos/ZIO-ITARCKeynoteTADv101p.pdf)
   * Olaf Zimmermann introduced the idea of Timing Architectural Decisions, emphasizing the importance of making and capturing decisions when they matter most.
   * [Blog Posts Olaf Zimmermann](https://ozimmer.ch/tags/#architectural-decisions)
+* 2024: [Facilitating Software Architecture - Andrew Harmel Law, O'Reilly 2024](https://www.oreilly.com/library/view/facilitating-software-architecture/9781098151850/)
+    * This book provides practical guidance and real-world examples for collaborative architecture decision-making. 
+    * The author Andrew covers effective facilitation techniques, the ADR process, and strategies for creating value through clear documentation and team involvement.
+* 2025: [Document Architecture Decisions - InnerSourceCommons Pattern](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/document-architecture-decisions.md)
 
-ADRs continue to be a cornerstone for structured decision-making in software architecture.
+ADRs continue to be a cornerstone for structured decision-making in software architecture.)
 
 ## What are the Chatham House Rule?
 
