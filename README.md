@@ -54,7 +54,8 @@ To fully understand ADRs we need to define some extra terms:
 
 The first formulation of pattern:
 
-* [Request for comments - Document Architecture Decisions Pattern](./Document-Architecture-Decisions-Pattern.md)
+* [My Document Architecture Decisions Pattern - Original Draft](./Document-Architecture-Decisions-Pattern-Draft.md)
+* [Request for comments - Document Architecture Decisions Pattern - Initial State](./Document-Architecture-Decisions-Pattern.md)
 * [ADR Template](./ADR-Template.md)
 * [Documents with Record FAQ](./RECORD-FAQ.md)
 * [AWS ADR Process](./AWS-ADR-Process.md)
