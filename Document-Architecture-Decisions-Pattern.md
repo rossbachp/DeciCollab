@@ -167,8 +167,11 @@ The ADR/TDR approach also carries risks that we want to acknowledge:
 * [ADRs at Google Cloud](https://cloud.google.com/architecture/architecture-decision-records)
 * [Amazon: AWS Prescriptive Guidance: ADR Process](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/welcome.html)
 * [GitHub: ADR GitHub organization](https://adr.github.io/)
+* [How RTL uses Architectural Decision Records](https://tech.bertelsmann.com/en/blog/articles/how-rtl-uses-architectural-decision-records)
 * [How use Spotify ADRs](https://engineering.atspotify.com/2020/04/when-should-i-write-an-architecture-decision-record/)
-* [Joel Parker Templates to ADR](https://github.com/joelparkerhenderson/architecture-decision-record)
+* [Joel Parker Henderson - Templates to ADR](https://github.com/joelparkerhenderson/architecture-decision-record)
+* [Ministry of Justice - Cloud Platform](https://github.com/ministryofjustice/cloud-platform)
+  * Full documented example of Cloud Platform Decision and Runbooks to operated it!
 * [RedHat: Why you should use ADRs](https://www.redhat.com/en/blog/architecture-decision-records)
 * [Using Architecture Decision Records in Open Source Projects—An MSR Study on GitHub](https://ieeexplore.ieee.org/document/10155430)
 * [SAP- Cross Product Architecture](https://community.sap.com/t5/technology-blogs-by-sap/cross-product-architecture-embracing-conway-s-law-for-better-software/ba-p/13648600)
@@ -185,14 +188,15 @@ Drafted
 
 ## References
 
+* [ADR Hub](https://adr.github.io/)
 * [Architectural Decision](https://en.wikipedia.org/wiki/Architectural_decision)
 * [Architectural Decision Records](https://adr.github.io)
 * [Architectural Decisions — The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html)
-* [Michael Nygards ADRs Idea](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+* [Facilitating Software Architecture - Andrew Harmel Law, by Oreilly 2024](https://www.oreilly.com/library/view/facilitating-software-architecture/9781098151850/)
 * [Learnings from using ADR in a real project](https://blog.unexist.dev/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
+* [Michael Nygards ADRs Idea](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [Technical Debt Records](https://github.com/ms1963/TechnicalDebtRecords)
 * [Technical Debt Records Idea](https://www.heise.de/blog/Technical-Debt-Records-Dokumentation-technischer-Schulden-9876115.html)
 * [Requests for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
 * [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177)
-* [ADR Hub](https://adr.github.io/)

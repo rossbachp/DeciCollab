@@ -191,12 +191,17 @@ Examples:
 * [Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 * [Documenting Design Decisions using RFCs and ADRs](https://brunoscheufler.com/blog/2020-07-04-documenting-design-decisions-using-rfcs-and-adrs)
 * [Design- Practice Pepository](https://github.com/socadk/design-practice-repository)
+* [Facilitating Software Architecture - Andrew Harmel Law, O'Reilly 2024](https://www.oreilly.com/library/view/facilitating-software-architecture/9781098151850/)
+  * This book provides practical guidance and real-world examples for collaborative architecture decision-making. 
+  * The author Andrew covers effective facilitation techniques, the ADR process, and strategies for creating value through clear documentation and team involvement.
 * [How to write effective documentation for your open source project](https://opensource.com/article/20/3/documentation?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)
 * [How to Write Requests for Comments (RFCs) and Architecture Decision Reviews (ADRs)](https://jc1175.medium.com/how-to-write-requests-for-comments-rfcs-and-architecture-decision-reviews-adrs-aa0992e3149f)
 * [Improve your IT landscape with Architecture Decision Records (ADR)](https://medium.com/geekculture/improve-your-it-landscape-with-architecture-decision-records-adr-accf6d1b4e12)
 * [Inverse Conway Maneuver](https://martinfowler.com/bliki/ConwaysLaw.html)
 * [ISO/IEC 25010 - Quality of Software](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 * [Learnings from using ADR in a real project](https://blog.unexist.dev/documentation/myself/2021/08/18/learnings-from-using-adr-in-a-real-project.html)
+* [Ministry of Justice - Cloud Platform](https://github.com/ministryofjustice/cloud-platform)
+  * Full documented example of Cloud Platform Decision and Runbooks to operated it!
 * [Open Decision Framework](https://opensource.com/open-organization/resources/open-decision-framework?extIdCarryOver=true&sc_cid=701f2000001Css0AAC)
 * [Requests for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
 * [SAP- Cross Product Architecture](https://community.sap.com/t5/technology-blogs-by-sap/cross-product-architecture-embracing-conway-s-law-for-better-software/ba-p/13648600)
@@ -213,5 +218,7 @@ Examples:
 * [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177)
 * [27 Fundamental Techniques for Software Architects](https://www.workingsoftware.dev/fundamental-techniques-for-software-architects/)
 * [30-years-of-rfcs](https://www.rfc-editor.org/rfc/rfc2555.txt)
+
+Regards
 
 `|-o-|` - The Humbled Sign Painter - <a href="mailto://peter.rossbach@bee42.com">Peter</a>
